@@ -1,0 +1,11 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+fields:
+    address:
+            label: Address
+            span: full
+            required: true
+            attributes:
+                default-focus: 1

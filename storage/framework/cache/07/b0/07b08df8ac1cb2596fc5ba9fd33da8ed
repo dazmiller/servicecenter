@@ -1,4 +1,4 @@
-1433910198s:22323:"a:5:{s:5:"mtime";i:1433725814;s:7:"content";s:11090:"description = "Default layout"
+1434409986s:22423:"a:5:{s:5:"mtime";i:1434402511;s:7:"content";s:11140:"description = "Default layout"
 ==
 <!DOCTYPE html>
 <html  lang="en-gb" class="no-js">
@@ -178,7 +178,8 @@
         <!-- Scripts -->
 
 
-
+    <script src="{{'assets/js/jquery.themepunch.plugins.min.js'|theme }}"></script>
+    <script src="{{'assets/js/jquery.themepunch.revolution.min.js'|theme }}"></script>
 
         <script src="{{ [
             'assets/js/modernizr.custom.js',
@@ -187,9 +188,7 @@
             'assets/js/cleanlab_script.js',
             'assets/js/bootstrap-select.js',
             'assets/js/evol.colorpicker.min.js',
-            'assets/js/dmss.js',
-            'assets/js/jquery.themepunch.plugins.min.js',
-            'assets/js/jquery.themepunch.revolution.min.js'
+            'assets/js/dmss.js'
         ]|theme }}"></script>
         {% framework extras %}
         {% scripts %}
@@ -223,7 +222,7 @@
 		    });
 		</script>
     </body>
-</html>";s:8:"settings";a:2:{s:11:"description";s:14:"Default layout";s:10:"components";a:0:{}}s:4:"code";N;s:6:"markup";s:11054:"<!DOCTYPE html>
+</html>";s:8:"settings";a:2:{s:11:"description";s:14:"Default layout";s:10:"components";a:0:{}}s:4:"code";N;s:6:"markup";s:11104:"<!DOCTYPE html>
 <html  lang="en-gb" class="no-js">
     <head>
         <title>Service Me - {{ this.page.title }}</title>
@@ -401,7 +400,8 @@
         <!-- Scripts -->
 
 
-
+    <script src="{{'assets/js/jquery.themepunch.plugins.min.js'|theme }}"></script>
+    <script src="{{'assets/js/jquery.themepunch.revolution.min.js'|theme }}"></script>
 
         <script src="{{ [
             'assets/js/modernizr.custom.js',
@@ -410,9 +410,7 @@
             'assets/js/cleanlab_script.js',
             'assets/js/bootstrap-select.js',
             'assets/js/evol.colorpicker.min.js',
-            'assets/js/dmss.js',
-            'assets/js/jquery.themepunch.plugins.min.js',
-            'assets/js/jquery.themepunch.revolution.min.js'
+            'assets/js/dmss.js'
         ]|theme }}"></script>
         {% framework extras %}
         {% scripts %}

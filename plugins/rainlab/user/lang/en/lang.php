@@ -102,7 +102,7 @@ return [
         'phone' => 'Phone',
         'company' => 'Company',
         'city' => 'City',
-        'zip' => 'PostCode',
+        'zip' => 'Zip',
         'street_addr' => 'Street Address',
         'country' => 'Country',
         'select_country' => '-- select country --',

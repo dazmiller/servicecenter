@@ -253,26 +253,33 @@ class __TwigTemplate_ce1785b28048d87da2d3134f5c167856b33b2dbb79c97ef51217a3ddb6b
         <!-- Scripts -->
 
 
-
+    <script src=\"";
+        // line 179
+        echo $this->env->getExtension('CMS')->themeFilter("assets/js/jquery.themepunch.plugins.min.js");
+        echo "\"></script>
+    <script src=\"";
+        // line 180
+        echo $this->env->getExtension('CMS')->themeFilter("assets/js/jquery.themepunch.revolution.min.js");
+        echo "\"></script>
 
         <script src=\"";
-        // line 181
-        echo $this->env->getExtension('CMS')->themeFilter(array(0 => "assets/js/modernizr.custom.js", 1 => "assets/js/bootstrap.js", 2 => "assets/js/clean-js-plugins.js", 3 => "assets/js/cleanlab_script.js", 4 => "assets/js/bootstrap-select.js", 5 => "assets/js/evol.colorpicker.min.js", 6 => "assets/js/dmss.js", 7 => "assets/js/jquery.themepunch.plugins.min.js", 8 => "assets/js/jquery.themepunch.revolution.min.js"));
-        // line 191
+        // line 182
+        echo $this->env->getExtension('CMS')->themeFilter(array(0 => "assets/js/modernizr.custom.js", 1 => "assets/js/bootstrap.js", 2 => "assets/js/clean-js-plugins.js", 3 => "assets/js/cleanlab_script.js", 4 => "assets/js/bootstrap-select.js", 5 => "assets/js/evol.colorpicker.min.js", 6 => "assets/js/dmss.js"));
+        // line 190
         echo "\"></script>
         ";
-        // line 192
+        // line 191
         echo '<script src="'. Request::getBasePath()
                 .'/modules/system/assets/js/framework.js"></script>'.PHP_EOL;
         echo '<script src="'. Request::getBasePath()
                     .'/modules/system/assets/js/framework.extras.js"></script>'.PHP_EOL;
         echo '<link href="'. Request::getBasePath()
                     .'/modules/system/assets/css/framework.extras.css" rel="stylesheet">'.PHP_EOL;
-        // line 193
+        // line 192
         echo "        ";
         echo $this->env->getExtension('CMS')->assetsFunction('js');
         echo $this->env->getExtension('CMS')->displayBlock('scripts');
-        // line 194
+        // line 193
         echo "\t\t<script type=\"text/javascript\">
 \t\t    jQuery(document).ready(function() {
 \t\t        /* Revolution Slider */
@@ -318,6 +325,6 @@ class __TwigTemplate_ce1785b28048d87da2d3134f5c167856b33b2dbb79c97ef51217a3ddb6b
 
     public function getDebugInfo()
     {
-        return array (  276 => 194,  272 => 193,  265 => 192,  262 => 191,  260 => 181,  251 => 174,  247 => 173,  241 => 169,  239 => 168,  227 => 158,  223 => 157,  172 => 109,  162 => 102,  156 => 99,  88 => 34,  83 => 32,  79 => 31,  75 => 30,  68 => 26,  62 => 23,  56 => 20,  53 => 19,  50 => 18,  42 => 13,  36 => 10,  31 => 8,  24 => 4,  19 => 1,);
+        return array (  283 => 193,  279 => 192,  272 => 191,  269 => 190,  267 => 182,  262 => 180,  258 => 179,  251 => 174,  247 => 173,  241 => 169,  239 => 168,  227 => 158,  223 => 157,  172 => 109,  162 => 102,  156 => 99,  88 => 34,  83 => 32,  79 => 31,  75 => 30,  68 => 26,  62 => 23,  56 => 20,  53 => 19,  50 => 18,  42 => 13,  36 => 10,  31 => 8,  24 => 4,  19 => 1,);
     }
 }

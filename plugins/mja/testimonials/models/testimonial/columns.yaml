@@ -1,0 +1,15 @@
+# ===================================
+#  List Column Definitions
+# ===================================
+
+columns:
+    id:
+        label: mja.testimonials::lang.fields.id
+        invisible: true
+
+    is_public:
+        label: mja.testimonials::lang.fields.public
+        type: switch
+
+    author:
+        label: mja.testimonials::lang.fields.author
