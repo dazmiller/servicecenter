@@ -1,0 +1,449 @@
+1433555497s:22325:"a:5:{s:5:"mtime";i:1433284981;s:7:"content";s:11091:"description = "Default layout"
+==
+<!DOCTYPE html>
+<html  lang="en-gb" class="no-js">
+    <head>
+        <title>Service Me - {{ this.page.title }}</title>
+
+    <!-- ***** meta ***** -->
+    <meta charset="utf-8">
+    <meta name="title" content="{{ this.page.meta_title }}">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=yes">
+    <meta name="description" content="{{ this.page.meta_description }}" />
+    <meta name="author" content="Darren Miller">
+    <!-- ***** Favicons ***** -->
+    <link rel="shortcut icon" href="{{ 'assets/images/october.png'|theme }}">
+    <link rel="apple-touch-icon" href="images/favicons/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="44x72" href="images/favicons/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="70x114" href="images/favicons/apple-touch-icon-114x114.png">
+
+        {% styles %}
+    <!-- ***** Google Fonts ***** -->
+    <link href='{{['assets/css/roboto.css']|theme }}' rel='stylesheet' type='text/css'>
+
+    <!-- ***** Addons Stylesheet ***** -->
+    <link rel="stylesheet" type="text/css" href="{{['assets/css/rev-settings.css']|theme }}" media="screen" />
+
+    <!-- ***** Bootstrap CSS Stylesheet ***** -->
+    <link rel="stylesheet" type="text/css" href="{{['assets/css/bootstrap.css']|theme }}">
+
+
+    <!-- ***** Main + Responsive CSS Stylesheet ***** -->
+    <link rel="stylesheet" type="text/css" href="{{['assets/css/icons-styles.css']|theme }}">
+    <link rel="stylesheet" type="text/css" href="{{['assets/css/template.css']|theme }}">
+    <link rel="stylesheet" type="text/css" href="{{['assets/css/responsive-devices.css']|theme }}" />
+    <!-- ***** Updates CSS Stylesheet (for future templates updates ***** -->
+    <link rel="stylesheet" type="text/css" href="{{['assets/css/updates.css']|theme }}">
+
+    <!-- JS -->
+    <script type= "text/javascript"SRC="http://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script SRC="assets/js/jquery.min.js">\x3C/script>')</script>
+</head>
+<body class="">
+<div id="page-wrapper">
+    <header id="header" class="nav-down header2">
+        <div id="panel">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-9">
+                        <ul class="info-left reset-list">
+                            <li><span class="icon-location"></span><p>26-32 Marsh Street, Wolli Creek, NSW, 2205</p></li>
+                            <li><span class="icon-phone"></span><p>1800 123 123</p></li>
+                            <li><span class="icon-envelope2"></span><p>info@serviceme.com</p></li>
+                            <li><span class="icon-skype"></span><p>Skype Us</p></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-3">
+                        <ul class="info-right reset-list">
+                            <li class="ico-twitter animation">
+                                <a href="#">
+                                    <span class="icon-twitter"></span>
+                                </a>
+                            </li>
+                            <li class="ico-facebook animation">
+                                <a href="#">
+                                    <span class="icon-facebook"></span>
+                                </a>
+                            </li>
+                            <li class="ico-pinterest animation">
+                                <a href="#">
+                                    <span class="icon-pinterest"></span>
+                                </a>
+                            </li>
+                            <li class="ico-instagram animation">
+                                <a href="#">
+                                    <span class="icon-instagram"></span>
+                                </a>
+                            </li>
+                            <li class="ico-dribbble animation">
+                                <a href="#">
+                                    <span class="icon-dribbble"></span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="slide">
+            <div class="container relative">
+                <a href="#" class="btn-slide"><span class="icon-angle-up"></span></a>
+            </div>
+        </div><!-- end sliding panel -->
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="relative onlyh3">
+                        <div class="logo-container hasinfocard">
+                            <h1 id="logo">
+                                <a href="index.blade.php">
+                                    <div class="logo-default">
+                                        <img src="{{ 'assets/images/logo.png'|theme }}" alt="" title="Click to return to the homepage" class="img-responsive" width="184" height="41" />
+                                    </div>
+                                    <div class="logo-white">
+                                        <img src="{{ 'assets/images/logo-white.png'|theme }}" alt="" title="Click to return to the homepage" class="img-responsive" width="184" height="41" />
+                                    </div>
+                                </a>
+                            </h1><!-- end logo -->
+                            <div id="infocard">
+                                <div class="row">
+                                    <div class="col-sm-5 center">
+                                        <img src="{{ 'assets/images/info-logo.png'|theme }}" alt="" class="mbottom20" width="43" height="70" />
+                                        <h2>Service Me is the first of its kind in the world. Instead of making you chase a company, let them chase you for business.</h2>
+                                    </div>
+                                    <div class="col-sm-7">
+                                        <p><span class="icon-phone"></span>1800 123 123</p>
+                                        <p class="mbottom10"><span class="icon-envelope2 mright5"></span><a href="mailto:info@serviceme.com" style="color:white">Email: info@serviceme.com</a></p>
+                                        <BR>
+                                        <p><strong>Service Me Pty Ltd</strong></p>
+                                        <p class="mbottom30">26-32 Marsh Street, Wolli Creek, NSW, 2205</p>
+                                        <ul class="info-social center reset-list">
+                                            <li class="width100 mbottom10">
+                                                <p>Get Social</p>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <span class="icon-facebook"></span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <span class="icon-twitter"></span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <span class="icon-dribbble"></span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <span class="icon-pinterest"></span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div><!-- end infocard -->
+                        </div><!-- end logo-container -->
+
+                   
+                        <div class="searchPanel">
+                            <span class="icon-search3"></span>
+                            <form action="http://www.google.com/search" method="get" onsubmit="Gsitesearch(this)" target="_blank" class="searchForm">
+                                <input name="q" type="text" placeholder="just type in here..." class="searchBox">
+                            </form>
+                        </div><!-- end searchPanel -->
+                     
+
+                     {% partial 'nav-not-logged-in' %}
+                     
+                     
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+        <!-- Content -->
+        <section id="layout-content" style="margin-top:148px;">
+            {% page %}
+        </section>
+
+        <!-- Footer -->
+        <footer id="layout-footer">
+            {% partial "footer" %}
+        </footer>
+
+        <!-- Scripts -->
+
+
+
+
+        <script src="{{ [
+            'assets/js/modernizr.custom.js',
+            'assets/js/bootstrap.js',
+            'assets/js/clean-js-plugins.js',
+            'assets/js/cleanlab_script.js',
+            'assets/js/bootstrap-select.js',
+            'assets/js/evol.colorpicker.min.js',
+            'assets/js/dmss.js',
+            'assets/js/jquery.themepunch.plugins.min.js',
+            'assets/js/jquery.themepunch.revolution.min.js',
+        ]|theme }}"></script>
+        {% framework extras %}
+        {% scripts %}
+		<script type="text/javascript">
+		    jQuery(document).ready(function() {
+		        /* Revolution Slider */
+		        revapi = jQuery('.tp-banner').revolution(
+		                {
+		                    delay:9000,
+		                    startwidth:1170,
+		                    startheight:500,
+		                    hideThumbs:10,
+		                    fullWidth:"on",
+		                    forceFullWidth:"on"
+		                });
+
+		        /* Owl Carousel */
+		        $("#our-team").owlCarousel({
+		            autoPlay: 3000, //Set AutoPlay to 3 seconds
+		            items : 4,
+		            itemsDesktop : [1199,3],
+		            itemsDesktopSmall : [979,3],
+		            autoPlay : false,
+		            navigation : true,
+		            pagination : false,
+		            navigationText: [
+		                "<i class='icon-angle-left animation'></i>",
+		                "<i class='icon-angle-right animation'></i>"
+		            ]
+		        });
+		    });
+		</script>
+    </body>
+</html>";s:8:"settings";a:2:{s:11:"description";s:14:"Default layout";s:10:"components";a:0:{}}s:4:"code";N;s:6:"markup";s:11055:"<!DOCTYPE html>
+<html  lang="en-gb" class="no-js">
+    <head>
+        <title>Service Me - {{ this.page.title }}</title>
+
+    <!-- ***** meta ***** -->
+    <meta charset="utf-8">
+    <meta name="title" content="{{ this.page.meta_title }}">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=yes">
+    <meta name="description" content="{{ this.page.meta_description }}" />
+    <meta name="author" content="Darren Miller">
+    <!-- ***** Favicons ***** -->
+    <link rel="shortcut icon" href="{{ 'assets/images/october.png'|theme }}">
+    <link rel="apple-touch-icon" href="images/favicons/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="44x72" href="images/favicons/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="70x114" href="images/favicons/apple-touch-icon-114x114.png">
+
+        {% styles %}
+    <!-- ***** Google Fonts ***** -->
+    <link href='{{['assets/css/roboto.css']|theme }}' rel='stylesheet' type='text/css'>
+
+    <!-- ***** Addons Stylesheet ***** -->
+    <link rel="stylesheet" type="text/css" href="{{['assets/css/rev-settings.css']|theme }}" media="screen" />
+
+    <!-- ***** Bootstrap CSS Stylesheet ***** -->
+    <link rel="stylesheet" type="text/css" href="{{['assets/css/bootstrap.css']|theme }}">
+
+
+    <!-- ***** Main + Responsive CSS Stylesheet ***** -->
+    <link rel="stylesheet" type="text/css" href="{{['assets/css/icons-styles.css']|theme }}">
+    <link rel="stylesheet" type="text/css" href="{{['assets/css/template.css']|theme }}">
+    <link rel="stylesheet" type="text/css" href="{{['assets/css/responsive-devices.css']|theme }}" />
+    <!-- ***** Updates CSS Stylesheet (for future templates updates ***** -->
+    <link rel="stylesheet" type="text/css" href="{{['assets/css/updates.css']|theme }}">
+
+    <!-- JS -->
+    <script type= "text/javascript"SRC="http://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script SRC="assets/js/jquery.min.js">\x3C/script>')</script>
+</head>
+<body class="">
+<div id="page-wrapper">
+    <header id="header" class="nav-down header2">
+        <div id="panel">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-9">
+                        <ul class="info-left reset-list">
+                            <li><span class="icon-location"></span><p>26-32 Marsh Street, Wolli Creek, NSW, 2205</p></li>
+                            <li><span class="icon-phone"></span><p>1800 123 123</p></li>
+                            <li><span class="icon-envelope2"></span><p>info@serviceme.com</p></li>
+                            <li><span class="icon-skype"></span><p>Skype Us</p></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-3">
+                        <ul class="info-right reset-list">
+                            <li class="ico-twitter animation">
+                                <a href="#">
+                                    <span class="icon-twitter"></span>
+                                </a>
+                            </li>
+                            <li class="ico-facebook animation">
+                                <a href="#">
+                                    <span class="icon-facebook"></span>
+                                </a>
+                            </li>
+                            <li class="ico-pinterest animation">
+                                <a href="#">
+                                    <span class="icon-pinterest"></span>
+                                </a>
+                            </li>
+                            <li class="ico-instagram animation">
+                                <a href="#">
+                                    <span class="icon-instagram"></span>
+                                </a>
+                            </li>
+                            <li class="ico-dribbble animation">
+                                <a href="#">
+                                    <span class="icon-dribbble"></span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="slide">
+            <div class="container relative">
+                <a href="#" class="btn-slide"><span class="icon-angle-up"></span></a>
+            </div>
+        </div><!-- end sliding panel -->
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="relative onlyh3">
+                        <div class="logo-container hasinfocard">
+                            <h1 id="logo">
+                                <a href="index.blade.php">
+                                    <div class="logo-default">
+                                        <img src="{{ 'assets/images/logo.png'|theme }}" alt="" title="Click to return to the homepage" class="img-responsive" width="184" height="41" />
+                                    </div>
+                                    <div class="logo-white">
+                                        <img src="{{ 'assets/images/logo-white.png'|theme }}" alt="" title="Click to return to the homepage" class="img-responsive" width="184" height="41" />
+                                    </div>
+                                </a>
+                            </h1><!-- end logo -->
+                            <div id="infocard">
+                                <div class="row">
+                                    <div class="col-sm-5 center">
+                                        <img src="{{ 'assets/images/info-logo.png'|theme }}" alt="" class="mbottom20" width="43" height="70" />
+                                        <h2>Service Me is the first of its kind in the world. Instead of making you chase a company, let them chase you for business.</h2>
+                                    </div>
+                                    <div class="col-sm-7">
+                                        <p><span class="icon-phone"></span>1800 123 123</p>
+                                        <p class="mbottom10"><span class="icon-envelope2 mright5"></span><a href="mailto:info@serviceme.com" style="color:white">Email: info@serviceme.com</a></p>
+                                        <BR>
+                                        <p><strong>Service Me Pty Ltd</strong></p>
+                                        <p class="mbottom30">26-32 Marsh Street, Wolli Creek, NSW, 2205</p>
+                                        <ul class="info-social center reset-list">
+                                            <li class="width100 mbottom10">
+                                                <p>Get Social</p>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <span class="icon-facebook"></span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <span class="icon-twitter"></span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <span class="icon-dribbble"></span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <span class="icon-pinterest"></span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div><!-- end infocard -->
+                        </div><!-- end logo-container -->
+
+                   
+                        <div class="searchPanel">
+                            <span class="icon-search3"></span>
+                            <form action="http://www.google.com/search" method="get" onsubmit="Gsitesearch(this)" target="_blank" class="searchForm">
+                                <input name="q" type="text" placeholder="just type in here..." class="searchBox">
+                            </form>
+                        </div><!-- end searchPanel -->
+                     
+
+                     {% partial 'nav-not-logged-in' %}
+                     
+                     
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+        <!-- Content -->
+        <section id="layout-content" style="margin-top:148px;">
+            {% page %}
+        </section>
+
+        <!-- Footer -->
+        <footer id="layout-footer">
+            {% partial "footer" %}
+        </footer>
+
+        <!-- Scripts -->
+
+
+
+
+        <script src="{{ [
+            'assets/js/modernizr.custom.js',
+            'assets/js/bootstrap.js',
+            'assets/js/clean-js-plugins.js',
+            'assets/js/cleanlab_script.js',
+            'assets/js/bootstrap-select.js',
+            'assets/js/evol.colorpicker.min.js',
+            'assets/js/dmss.js',
+            'assets/js/jquery.themepunch.plugins.min.js',
+            'assets/js/jquery.themepunch.revolution.min.js',
+        ]|theme }}"></script>
+        {% framework extras %}
+        {% scripts %}
+		<script type="text/javascript">
+		    jQuery(document).ready(function() {
+		        /* Revolution Slider */
+		        revapi = jQuery('.tp-banner').revolution(
+		                {
+		                    delay:9000,
+		                    startwidth:1170,
+		                    startheight:500,
+		                    hideThumbs:10,
+		                    fullWidth:"on",
+		                    forceFullWidth:"on"
+		                });
+
+		        /* Owl Carousel */
+		        $("#our-team").owlCarousel({
+		            autoPlay: 3000, //Set AutoPlay to 3 seconds
+		            items : 4,
+		            itemsDesktop : [1199,3],
+		            itemsDesktopSmall : [979,3],
+		            autoPlay : false,
+		            navigation : true,
+		            pagination : false,
+		            navigationText: [
+		                "<i class='icon-angle-left animation'></i>",
+		                "<i class='icon-angle-right animation'></i>"
+		            ]
+		        });
+		    });
+		</script>
+    </body>
+</html>";}";

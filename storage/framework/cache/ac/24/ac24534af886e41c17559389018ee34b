@@ -1,0 +1,31 @@
+1433555499s:1694:"a:5:{s:5:"mtime";i:1433287194;s:7:"content";s:765:"description = "lower highlighted message area for adverts"
+
+[viewBag]
+staticPageSnippetCode = "message-pane-bottom"
+staticPageSnippetName = "Message Pane Bottom"
+==
+<div class="buy">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-9">
+                <h2>This is <span>The Best</span> way to save money and take back control of your information</h2>
+                <h5>It’s Suitable for everyday people to 'flip' the way we do business.</h5>
+            </div>
+            <div class="col-sm-3 center">
+                <a href="{{ url('login') }}" rel="nofollow" target="_blank" class="btn btn-default btn-default2">Register Now</a>
+            </div>
+        </div>
+    </div>
+</div><!-- end buy section-->";s:8:"settings";a:2:{s:11:"description";s:42:"lower highlighted message area for adverts";s:10:"components";a:1:{s:7:"viewBag";a:2:{s:21:"staticPageSnippetCode";s:19:"message-pane-bottom";s:21:"staticPageSnippetName";s:19:"Message Pane Bottom";}}}s:4:"code";N;s:6:"markup";s:594:"<div class="buy">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-9">
+                <h2>This is <span>The Best</span> way to save money and take back control of your information</h2>
+                <h5>It’s Suitable for everyday people to 'flip' the way we do business.</h5>
+            </div>
+            <div class="col-sm-3 center">
+                <a href="{{ url('login') }}" rel="nofollow" target="_blank" class="btn btn-default btn-default2">Register Now</a>
+            </div>
+        </div>
+    </div>
+</div><!-- end buy section-->";}";

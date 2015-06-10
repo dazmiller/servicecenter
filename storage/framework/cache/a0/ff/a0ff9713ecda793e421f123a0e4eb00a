@@ -1,0 +1,1 @@
+1433556194s:214:"a:2:{s:5:"mtime";i:1432767938;s:7:"content";s:160:"<a id="notification-counter" class="{{ cssClass }}" href="{{ goToPage }}">Notifications <span class="badge">{% if count > 0 %}{{ count }}{% endif %}</span> </a>";}";

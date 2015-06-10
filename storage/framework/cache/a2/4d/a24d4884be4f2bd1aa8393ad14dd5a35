@@ -1,0 +1,36 @@
+1433205107s:1823:"a:5:{s:5:"mtime";i:1431499524;s:7:"content";s:845:"<div class="container">
+    <div class="row">
+        <div class="col-sm-5">
+            <p class="muted credit">Made with <i class="icon-heart"></i> for Rebecca Georges by Samuel Georges<br /></p>
+        </div>
+        <div class="col-sm-4 text-center">
+            <p class="muted credit">Powered by <a href="http://octobercms.com/" target="_blank"><i class="icon-leaf"></i> October CMS</a></p>
+        </div>
+        <div class="col-sm-3">
+            <ul class="list-inline pull-right">
+                <li><a href="https://github.com/daftspunk/dishsmith/issues" target="_blank">Suggestions</a></li>
+                <li><a href="http://twitter.com/daftspunk" target="_blank">Feedback</a></li>
+                <li><a href="javascript:;" data-request="onLogout">Logout</a></li>
+            </ul>
+            
+        </div>
+    </div>
+</div>
+";s:8:"settings";a:1:{s:10:"components";a:0:{}}s:4:"code";N;s:6:"markup";s:844:"<div class="container">
+    <div class="row">
+        <div class="col-sm-5">
+            <p class="muted credit">Made with <i class="icon-heart"></i> for Rebecca Georges by Samuel Georges<br /></p>
+        </div>
+        <div class="col-sm-4 text-center">
+            <p class="muted credit">Powered by <a href="http://octobercms.com/" target="_blank"><i class="icon-leaf"></i> October CMS</a></p>
+        </div>
+        <div class="col-sm-3">
+            <ul class="list-inline pull-right">
+                <li><a href="https://github.com/daftspunk/dishsmith/issues" target="_blank">Suggestions</a></li>
+                <li><a href="http://twitter.com/daftspunk" target="_blank">Feedback</a></li>
+                <li><a href="javascript:;" data-request="onLogout">Logout</a></li>
+            </ul>
+            
+        </div>
+    </div>
+</div>";}";

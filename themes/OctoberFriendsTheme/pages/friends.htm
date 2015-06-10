@@ -1,0 +1,31 @@
+title = "DMA Friends"
+url = "/friends"
+layout = "default"
+description = "Welcome to DMA Friends"
+hidden = "0"
+
+[ActivityCodeForm]
+
+
+[UserMostRecentBadge]
+
+
+[Recommendations badges]
+recommend = "badge"
+viewTemplate = "dma.friends::%sPreview"
+viewClass = "col-md-4, col-sm-6"
+ifEmpty = "popular"
+limit = "12"
+==
+<div class="row content">
+    <div class="col-md-8 col-sm-8">
+        {% component 'ActivityCodeForm' %}
+        <h3>Things to Do</h3>
+        {% component 'badges' %}
+    </div>
+
+    <div class="col-md-4 col-sm-4">
+        <h3>My Latest Badge</h3>
+        {% component 'UserMostRecentBadge' %}
+    </div>
+</div>

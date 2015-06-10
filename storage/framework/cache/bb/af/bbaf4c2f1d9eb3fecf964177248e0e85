@@ -1,0 +1,184 @@
+1433555475s:11562:"a:5:{s:5:"mtime";i:1433286835;s:7:"content";s:5685:"title = "Register"
+url = "/register"
+layout = "default"
+hidden = "0"
+child_of = "mey_no_parent"
+hide_crumb = "0"
+remove_crumb_trail = "0"
+crumb_disabled = "0"
+==
+<div class="header-breadcrumb mbottom50">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h1 class="section-title fleft">My Account</h1>
+                    <ul class="reset-list">
+                        <li>
+                            <p>Account</p>
+                        </li>
+                        <li>/</li>
+                        <li class="active">
+                            <p>Register</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div><!-- end header-breadcrumb -->
+    <div id="content">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 mbottom50">
+                    <div class="register-panel thin-shadow clearfix">
+                        <div class="reg-panel-title">
+                            <b>REGISTER</b>
+                        </div>
+                                                <form  role="form" method="POST" action="http://localhost:8000/auth/register">
+                            <input type="hidden" name="_token" value="J20X3qPpO2dLDsTSoYRhuiaOtErIlDCS5b6UbnVV">
+
+                            <div class="form-row">
+                                <div class="form-line full">
+                                    <label for="login_username" class="mbottom5">Your Full Name</label>
+                                    <input type="text" name="name" id="name" value="">
+                                </div>
+                                <!-- end form-line -->
+                                <div class="form-line full">
+                                    <label for="login_password" class="mbottom5">Your Email Address</label>
+                                    <input type="email" name="email" id="email" value=""">
+                                </div>
+                                <!-- end form-line -->
+                                <div class="form-line full">
+                                    <label for="login_password" class="mbottom5">Password</label>
+                                    <input type="password" name="password" id="password">
+                                </div>
+                                <!-- end form-line -->
+                                <div class="form-line full">
+                                    <label for="login_password" class="mbottom5">Confirm Password</label>
+                                    <input type="password" name="password_confirmation" id="password_confirmation">
+                                </div>
+                                <div class="form-line full">
+                                    <button type="submit" class="btn btn-default mright15">REGISTER</button>
+                                </div>
+
+                                <!-- end form-line -->
+                            </div>
+                            <!-- end form-row -->
+                        </form>
+                    </div>
+                    <!-- end register-panel -->
+                </div>
+                <div class="col-sm-6 mtop40 mbottom50">
+                    <div class="reg-panel-title">
+                        <b>WHY SHOULD I CREATE AN ACCOUNT?</b>
+                    </div>
+                    <p class="mbottom20">Creating an account is quick and easy, and will allow you to request services
+                        from companies and regain your time and life. You can save your information and have it
+                        automatically sent for the application process, saving your repeating your information time and
+                        again, and much more. Go on.</p>
+                    <div class="reg-panel-title">
+                        <b>WHAT WILL YOU DO WITH MY INFORMATION?</b>
+                    </div>
+                    <p class="mbottom20">We promise that we are a business that is 'for' you, the customer. We have no interest in
+                        sharing your information with anyone you dont want us to. This is how our business works and we wont risk
+                        loosing your trust just to make a quick buck. Nowdays security and trust are words that are thrown around
+                        to easily and we believe its time to once again make these words something you can write in stone and depend upon.</p>
+                    <div class="reg-panel-title">
+                        <b>WHY DO YOU WANT THIS INFORMATION ABOUT ME?</b>
+                    </div>
+                    <p class="mbottom20">Everybody remembers their email address. Its a simple way to remember your login instead
+                        of having to remember a UserName for this site. Also, your email address is unique already, ie nobody else has it
+                        where-as often when you have to create a UserName, you will find that the name you want may be taken and you end up
+                        creating something hard to remember like User12xx just to get past the account validation. We want you to easily access
+                        your information and use this tool for all your needs, so thats why we want your email address. We ask your name so we
+                        can start to populate your profile and also so we can address your properly.</p>
+                </div>
+            </div>
+        </div>
+    </div><!-- end content -->";s:8:"settings";a:9:{s:5:"title";s:8:"Register";s:3:"url";s:9:"/register";s:6:"layout";s:7:"default";s:6:"hidden";s:1:"0";s:8:"child_of";s:13:"mey_no_parent";s:10:"hide_crumb";s:1:"0";s:18:"remove_crumb_trail";s:1:"0";s:14:"crumb_disabled";s:1:"0";s:10:"components";a:0:{}}s:4:"code";N;s:6:"markup";s:5514:"<div class="header-breadcrumb mbottom50">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h1 class="section-title fleft">My Account</h1>
+                    <ul class="reset-list">
+                        <li>
+                            <p>Account</p>
+                        </li>
+                        <li>/</li>
+                        <li class="active">
+                            <p>Register</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div><!-- end header-breadcrumb -->
+    <div id="content">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 mbottom50">
+                    <div class="register-panel thin-shadow clearfix">
+                        <div class="reg-panel-title">
+                            <b>REGISTER</b>
+                        </div>
+                                                <form  role="form" method="POST" action="http://localhost:8000/auth/register">
+                            <input type="hidden" name="_token" value="J20X3qPpO2dLDsTSoYRhuiaOtErIlDCS5b6UbnVV">
+
+                            <div class="form-row">
+                                <div class="form-line full">
+                                    <label for="login_username" class="mbottom5">Your Full Name</label>
+                                    <input type="text" name="name" id="name" value="">
+                                </div>
+                                <!-- end form-line -->
+                                <div class="form-line full">
+                                    <label for="login_password" class="mbottom5">Your Email Address</label>
+                                    <input type="email" name="email" id="email" value=""">
+                                </div>
+                                <!-- end form-line -->
+                                <div class="form-line full">
+                                    <label for="login_password" class="mbottom5">Password</label>
+                                    <input type="password" name="password" id="password">
+                                </div>
+                                <!-- end form-line -->
+                                <div class="form-line full">
+                                    <label for="login_password" class="mbottom5">Confirm Password</label>
+                                    <input type="password" name="password_confirmation" id="password_confirmation">
+                                </div>
+                                <div class="form-line full">
+                                    <button type="submit" class="btn btn-default mright15">REGISTER</button>
+                                </div>
+
+                                <!-- end form-line -->
+                            </div>
+                            <!-- end form-row -->
+                        </form>
+                    </div>
+                    <!-- end register-panel -->
+                </div>
+                <div class="col-sm-6 mtop40 mbottom50">
+                    <div class="reg-panel-title">
+                        <b>WHY SHOULD I CREATE AN ACCOUNT?</b>
+                    </div>
+                    <p class="mbottom20">Creating an account is quick and easy, and will allow you to request services
+                        from companies and regain your time and life. You can save your information and have it
+                        automatically sent for the application process, saving your repeating your information time and
+                        again, and much more. Go on.</p>
+                    <div class="reg-panel-title">
+                        <b>WHAT WILL YOU DO WITH MY INFORMATION?</b>
+                    </div>
+                    <p class="mbottom20">We promise that we are a business that is 'for' you, the customer. We have no interest in
+                        sharing your information with anyone you dont want us to. This is how our business works and we wont risk
+                        loosing your trust just to make a quick buck. Nowdays security and trust are words that are thrown around
+                        to easily and we believe its time to once again make these words something you can write in stone and depend upon.</p>
+                    <div class="reg-panel-title">
+                        <b>WHY DO YOU WANT THIS INFORMATION ABOUT ME?</b>
+                    </div>
+                    <p class="mbottom20">Everybody remembers their email address. Its a simple way to remember your login instead
+                        of having to remember a UserName for this site. Also, your email address is unique already, ie nobody else has it
+                        where-as often when you have to create a UserName, you will find that the name you want may be taken and you end up
+                        creating something hard to remember like User12xx just to get past the account validation. We want you to easily access
+                        your information and use this tool for all your needs, so thats why we want your email address. We ask your name so we
+                        can start to populate your profile and also so we can address your properly.</p>
+                </div>
+            </div>
+        </div>
+    </div><!-- end content -->";}";

@@ -1,0 +1,9 @@
+1433556124s:271:"a:2:{s:5:"mtime";i:1432767938;s:7:"content";s:217:"<div class="avatars row">
+    <ul class="selectable">
+    {% for avatar in avatars %}
+        <li class="avatar col-md-3 col-sm-3">
+            <img src="{{ avatar }}"/>
+        </li>
+    {% endfor %}
+    </ul>
+</div>";}";

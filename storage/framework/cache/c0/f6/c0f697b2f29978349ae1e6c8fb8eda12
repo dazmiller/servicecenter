@@ -1,0 +1,6 @@
+1433555582s:162:"a:2:{s:5:"mtime";i:1432767938;s:7:"content";s:108:"<div class="user-badges row">
+    {% for badge in badges %}
+        {{ badge|raw }}
+    {% endfor %}
+</div>
+";}";

@@ -1,0 +1,17 @@
+{
+    "name": "kurtjensen/twilio",
+    "description": "KurtJensen's Twilio plugin for OctoberCMS",
+    "homepage": "http://firemankurt.com",
+    "keywords": ["october", "cms", "kurtjensen", "twilio", "cellphone"],
+    "authors": [
+        {
+            "name": "Kurt Jensen",
+            "email": "kjensen@iaff106.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "twilio/sdk": "dev-master"
+    }
+}

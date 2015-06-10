@@ -1,0 +1,329 @@
+1433555475s:11701:"a:5:{s:5:"mtime";i:1433287663;s:7:"content";s:5749:"title = "Portfolio"
+url = "/portfolio"
+layout = "default"
+description = "Portfolio Page"
+hidden = "0"
+child_of = "mey_no_parent"
+hide_crumb = "0"
+remove_crumb_trail = "0"
+crumb_disabled = "0"
+==
+<div class="header-breadcrumb mbottom50">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12">
+					<h1 class="section-title fleft">Portfolio</h1>
+					<ul class="reset-list">
+						<li>
+							<p>Home</p>
+						</li>
+						<li>/</li>
+						<li class="active">
+							<p>Portfolio</p>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div><!-- end header-breadcrumb -->
+	<div id="content">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12">
+					<div class="portfolio-header">
+						<div id="portfolio-filters" class="filters-nav mbottom30">
+	                        <ul class="inline-block reset-list">
+	                            <li class="filter-item is-active" data-filter="*">All</li>
+	                            <li class="filter-item" data-filter=".illustration">Illustration</li>
+	                            <li class="filter-item" data-filter=".photography">Photography</li>
+	                            <li class="filter-item" data-filter=".web">Web</li>
+	                            <li class="filter-item" data-filter=".3d">3D</li>
+	                        </ul>
+	                    </div>     
+					</div>
+				</div>
+			</div>
+			<div class="row mbottom50">
+				<div class="portfolio-wrapper">
+				    <div class="col-sm-4 illustration mbottom30">
+						<ul class="ch-grid reset-list">
+							<li>
+								<div class="ch-item ch-img-1">
+						            <div class="ch-info">
+						                <h3>Use what you have</h3>
+						                <p>by Angela Duncan <a href="single-project.html">View Project</a></p>
+						            </div>
+						        </div>
+						    </li>
+		    			</ul>
+		    		</div>
+					<div class="col-sm-4 illustration mbottom30">
+						<ul class="ch-grid reset-list">
+							<li>
+								<div class="ch-item ch-img-2">
+						            <div class="ch-info">
+						                <h3>Use what you have</h3>
+						                <p>by Angela Duncan <a href="single-project.html">View Project</a></p>
+						            </div>
+						        </div>
+						    </li>
+		    			</ul>
+			        </div>
+					<div class="col-sm-4 web mbottom30">
+						<ul class="ch-grid reset-list">
+							<li>
+								<div class="ch-item ch-img-3">
+						            <div class="ch-info">
+						                <h3>Use what you have</h3>
+						                <p>by Angela Duncan <a href="single-project.html">View Project</a></p>
+						            </div>
+						        </div>
+						    </li>
+		    			</ul>
+			        </div>
+					<div class="col-sm-4 web mbottom30">
+						<ul class="ch-grid reset-list">
+							<li>
+								<div class="ch-item ch-img-4">
+						            <div class="ch-info">
+						                <h3>Use what you have</h3>
+						                <p>by Angela Duncan <a href="single-project.html">View Project</a></p>
+						            </div>
+						        </div>
+						    </li>
+		    			</ul>
+			        </div>
+					<div class="col-sm-4 3d mbottom30">
+						<ul class="ch-grid reset-list">
+							<li>
+								<div class="ch-item ch-img-5">
+						            <div class="ch-info">
+						                <h3>Use what you have</h3>
+						                <p>by Angela Duncan <a href="single-project.html">View Project</a></p>
+						            </div>
+						        </div>
+						    </li>
+		    			</ul>
+			        </div>
+					<div class="col-sm-4 3d mbottom30">
+						<ul class="ch-grid reset-list">
+							<li>
+								<div class="ch-item ch-img-6">
+						            <div class="ch-info">
+						                <h3>Use what you have</h3>
+						                <p>by Angela Duncan <a href="single-project.html">View Project</a></p>
+						            </div>
+						        </div>
+						    </li>
+		    			</ul>
+			        </div>
+					<div class="col-sm-4 photography mbottom30">
+						<ul class="ch-grid reset-list">
+							<li>
+								<div class="ch-item ch-img-7">
+						            <div class="ch-info">
+						                <h3>Use what you have</h3>
+						                <p>by Angela Duncan <a href="single-project.html">View Project</a></p>
+						            </div>
+						        </div>
+						    </li>
+		    			</ul>
+			        </div>
+					<div class="col-sm-4 photography mbottom30">
+						<ul class="ch-grid reset-list">
+							<li>
+								<div class="ch-item ch-img-8">
+						            <div class="ch-info">
+						                <h3>Use what you have</h3>
+						                <p>by Angela Duncan <a href="single-project.html">View Project</a></p>
+						            </div>
+						        </div>
+						    </li>
+		    			</ul>
+			        </div>
+					<div class="col-sm-4 illustration mbottom30">
+						<ul class="ch-grid reset-list">
+							<li>
+								<div class="ch-item ch-img-9">
+						            <div class="ch-info">
+						                <h3>Use what you have</h3>
+						                <p>by Angela Duncan <a href="http://drbl.in/eOPF/">View on Dribbble</a></p>
+						            </div>
+						        </div>
+						    </li>
+		    			</ul>
+			        </div>
+	    		</div>
+			</div>
+			<div class="center mbottom70">
+				<ul class="pagination clearfix reset-list">
+					<li><a href="#">«</a></li>
+					<li class="active"><a href="#">1</a></li>
+					<li><a href="#">2</a></li>
+					<li><a href="#">3</a></li>
+					<li><a href="#">4</a></li>
+					<li><a href="#">5</a></li>
+					<li><a href="#">»</a></li>
+				</ul>
+			</div>
+		</div>
+	</div><!-- end content -->";s:8:"settings";a:10:{s:5:"title";s:9:"Portfolio";s:3:"url";s:10:"/portfolio";s:6:"layout";s:7:"default";s:11:"description";s:14:"Portfolio Page";s:6:"hidden";s:1:"0";s:8:"child_of";s:13:"mey_no_parent";s:10:"hide_crumb";s:1:"0";s:18:"remove_crumb_trail";s:1:"0";s:14:"crumb_disabled";s:1:"0";s:10:"components";a:0:{}}s:4:"code";N;s:6:"markup";s:5544:"<div class="header-breadcrumb mbottom50">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12">
+					<h1 class="section-title fleft">Portfolio</h1>
+					<ul class="reset-list">
+						<li>
+							<p>Home</p>
+						</li>
+						<li>/</li>
+						<li class="active">
+							<p>Portfolio</p>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div><!-- end header-breadcrumb -->
+	<div id="content">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12">
+					<div class="portfolio-header">
+						<div id="portfolio-filters" class="filters-nav mbottom30">
+	                        <ul class="inline-block reset-list">
+	                            <li class="filter-item is-active" data-filter="*">All</li>
+	                            <li class="filter-item" data-filter=".illustration">Illustration</li>
+	                            <li class="filter-item" data-filter=".photography">Photography</li>
+	                            <li class="filter-item" data-filter=".web">Web</li>
+	                            <li class="filter-item" data-filter=".3d">3D</li>
+	                        </ul>
+	                    </div>     
+					</div>
+				</div>
+			</div>
+			<div class="row mbottom50">
+				<div class="portfolio-wrapper">
+				    <div class="col-sm-4 illustration mbottom30">
+						<ul class="ch-grid reset-list">
+							<li>
+								<div class="ch-item ch-img-1">
+						            <div class="ch-info">
+						                <h3>Use what you have</h3>
+						                <p>by Angela Duncan <a href="single-project.html">View Project</a></p>
+						            </div>
+						        </div>
+						    </li>
+		    			</ul>
+		    		</div>
+					<div class="col-sm-4 illustration mbottom30">
+						<ul class="ch-grid reset-list">
+							<li>
+								<div class="ch-item ch-img-2">
+						            <div class="ch-info">
+						                <h3>Use what you have</h3>
+						                <p>by Angela Duncan <a href="single-project.html">View Project</a></p>
+						            </div>
+						        </div>
+						    </li>
+		    			</ul>
+			        </div>
+					<div class="col-sm-4 web mbottom30">
+						<ul class="ch-grid reset-list">
+							<li>
+								<div class="ch-item ch-img-3">
+						            <div class="ch-info">
+						                <h3>Use what you have</h3>
+						                <p>by Angela Duncan <a href="single-project.html">View Project</a></p>
+						            </div>
+						        </div>
+						    </li>
+		    			</ul>
+			        </div>
+					<div class="col-sm-4 web mbottom30">
+						<ul class="ch-grid reset-list">
+							<li>
+								<div class="ch-item ch-img-4">
+						            <div class="ch-info">
+						                <h3>Use what you have</h3>
+						                <p>by Angela Duncan <a href="single-project.html">View Project</a></p>
+						            </div>
+						        </div>
+						    </li>
+		    			</ul>
+			        </div>
+					<div class="col-sm-4 3d mbottom30">
+						<ul class="ch-grid reset-list">
+							<li>
+								<div class="ch-item ch-img-5">
+						            <div class="ch-info">
+						                <h3>Use what you have</h3>
+						                <p>by Angela Duncan <a href="single-project.html">View Project</a></p>
+						            </div>
+						        </div>
+						    </li>
+		    			</ul>
+			        </div>
+					<div class="col-sm-4 3d mbottom30">
+						<ul class="ch-grid reset-list">
+							<li>
+								<div class="ch-item ch-img-6">
+						            <div class="ch-info">
+						                <h3>Use what you have</h3>
+						                <p>by Angela Duncan <a href="single-project.html">View Project</a></p>
+						            </div>
+						        </div>
+						    </li>
+		    			</ul>
+			        </div>
+					<div class="col-sm-4 photography mbottom30">
+						<ul class="ch-grid reset-list">
+							<li>
+								<div class="ch-item ch-img-7">
+						            <div class="ch-info">
+						                <h3>Use what you have</h3>
+						                <p>by Angela Duncan <a href="single-project.html">View Project</a></p>
+						            </div>
+						        </div>
+						    </li>
+		    			</ul>
+			        </div>
+					<div class="col-sm-4 photography mbottom30">
+						<ul class="ch-grid reset-list">
+							<li>
+								<div class="ch-item ch-img-8">
+						            <div class="ch-info">
+						                <h3>Use what you have</h3>
+						                <p>by Angela Duncan <a href="single-project.html">View Project</a></p>
+						            </div>
+						        </div>
+						    </li>
+		    			</ul>
+			        </div>
+					<div class="col-sm-4 illustration mbottom30">
+						<ul class="ch-grid reset-list">
+							<li>
+								<div class="ch-item ch-img-9">
+						            <div class="ch-info">
+						                <h3>Use what you have</h3>
+						                <p>by Angela Duncan <a href="http://drbl.in/eOPF/">View on Dribbble</a></p>
+						            </div>
+						        </div>
+						    </li>
+		    			</ul>
+			        </div>
+	    		</div>
+			</div>
+			<div class="center mbottom70">
+				<ul class="pagination clearfix reset-list">
+					<li><a href="#">«</a></li>
+					<li class="active"><a href="#">1</a></li>
+					<li><a href="#">2</a></li>
+					<li><a href="#">3</a></li>
+					<li><a href="#">4</a></li>
+					<li><a href="#">5</a></li>
+					<li><a href="#">»</a></li>
+				</ul>
+			</div>
+		</div>
+	</div><!-- end content -->";}";

@@ -1,0 +1,7 @@
+name: 'a new menu'
+items:
+    -
+        title: 'New menu item'
+        type: cms-page
+        code: ''
+        reference: plugins

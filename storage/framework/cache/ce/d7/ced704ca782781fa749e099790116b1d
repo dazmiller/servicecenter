@@ -1,0 +1,60 @@
+1433556145s:1823:"a:5:{s:5:"mtime";i:1431561960;s:7:"content";s:801:"title = "Login to Friends"
+url = "/"
+layout = "login"
+hidden = "0"
+
+[Modal WhatsThisModal]
+linkTitle = "<span class="icon-question-circle">What is this?</span>"
+linkClasses = "help small pop"
+title = "What is DMA Friends?"
+partial = "whatisthis"
+
+[UserLogin]
+redirect = "friends"
+==
+<?php
+use DMA\Friends\Classes\LocationManager;
+
+function onStart()
+{
+    if (Auth::getUser()) {
+        return Redirect::to('friends');
+    }
+
+    $this['location'] = LocationManager::getLocation();
+}
+?>
+==
+<div class="info-box">
+    <div class="login-box">
+        <div class="dma-logo">{% component 'WhatsThisModal' %}</div>
+
+        <div class="info">{% component 'UserLogin' %}</div
+    </div>
+
+    <div class="location-info footer">
+        <h4 class="icon-map-marker">{{ location.title }}</h4>
+    </div>
+</div>
+";s:8:"settings";a:5:{s:5:"title";s:16:"Login to Friends";s:3:"url";s:1:"/";s:6:"layout";s:5:"login";s:6:"hidden";s:1:"0";s:10:"components";a:2:{s:20:"Modal WhatsThisModal";a:4:{s:9:"linkTitle";s:53:"<span class=icon-question-circle>What is this?</span>";s:11:"linkClasses";s:14:"help small pop";s:5:"title";s:20:"What is DMA Friends?";s:7:"partial";s:10:"whatisthis";}s:9:"UserLogin";a:1:{s:8:"redirect";s:7:"friends";}}}s:4:"code";s:196:"
+use DMA\Friends\Classes\LocationManager;
+
+function onStart()
+{
+    if (Auth::getUser()) {
+        return Redirect::to('friends');
+    }
+
+    $this['location'] = LocationManager::getLocation();
+}
+";s:6:"markup";s:310:"<div class="info-box">
+    <div class="login-box">
+        <div class="dma-logo">{% component 'WhatsThisModal' %}</div>
+
+        <div class="info">{% component 'UserLogin' %}</div
+    </div>
+
+    <div class="location-info footer">
+        <h4 class="icon-map-marker">{{ location.title }}</h4>
+    </div>
+</div>";}";

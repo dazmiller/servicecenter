@@ -1,0 +1,42 @@
+1433556145s:1511:"a:5:{s:5:"mtime";i:1431561960;s:7:"content";s:633:"title = "DMA Friends"
+url = "/friends"
+layout = "default"
+description = "Welcome to DMA Friends"
+hidden = "0"
+
+[ActivityCodeForm]
+
+
+[UserMostRecentBadge]
+
+
+[Recommendations badges]
+recommend = "badge"
+viewTemplate = "dma.friends::%sPreview"
+viewClass = "col-md-4, col-sm-6"
+ifEmpty = "popular"
+limit = "12"
+==
+<div class="row content">
+    <div class="col-md-8 col-sm-8">
+        {% component 'ActivityCodeForm' %}
+        <h3>Things to Do</h3>
+        {% component 'badges' %}
+    </div>
+
+    <div class="col-md-4 col-sm-4">
+        <h3>My Latest Badge</h3>
+        {% component 'UserMostRecentBadge' %}
+    </div>
+</div>";s:8:"settings";a:6:{s:5:"title";s:11:"DMA Friends";s:3:"url";s:8:"/friends";s:6:"layout";s:7:"default";s:11:"description";s:22:"Welcome to DMA Friends";s:6:"hidden";s:1:"0";s:10:"components";a:3:{s:16:"ActivityCodeForm";a:0:{}s:19:"UserMostRecentBadge";a:0:{}s:22:"Recommendations badges";a:5:{s:9:"recommend";s:5:"badge";s:12:"viewTemplate";s:22:"dma.friends::%sPreview";s:9:"viewClass";s:18:"col-md-4, col-sm-6";s:7:"ifEmpty";s:7:"popular";s:5:"limit";s:2:"12";}}}s:4:"code";N;s:6:"markup";s:323:"<div class="row content">
+    <div class="col-md-8 col-sm-8">
+        {% component 'ActivityCodeForm' %}
+        <h3>Things to Do</h3>
+        {% component 'badges' %}
+    </div>
+
+    <div class="col-md-4 col-sm-4">
+        <h3>My Latest Badge</h3>
+        {% component 'UserMostRecentBadge' %}
+    </div>
+</div>";}";

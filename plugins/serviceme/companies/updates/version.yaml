@@ -1,0 +1,7 @@
+1.0.1: First version of Companies
+1.0.2:
+      - Created Companies Table
+      - create_companies_table.php
+1.0.3:
+      - Added industry_id
+      - create_companies_table.php      

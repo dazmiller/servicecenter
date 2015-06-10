@@ -1,0 +1,25 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+fields:
+
+    quality:
+        knobLabel: Image quality
+        knobComment: This controls the image quality when resizing responsive images.
+        type: owl-knob
+        min: 0
+        max: 100
+        angleOffset: -125
+        angleArc: 250
+        fgColor: 405D7A
+        inputColor: 777
+        default: 100
+
+    breakpoints:
+        label: Breakpoints
+        type: owl-tagbox
+        comment: "Enter your theme's major breakpoints, these will be used scale plugin images to ideal sizes."
+        placeholder: Enter breakpoints...
+        validation: ^[1-9][0-9]*$
+        validationMessage: "Breakpoints must be a whole number greater than zero."

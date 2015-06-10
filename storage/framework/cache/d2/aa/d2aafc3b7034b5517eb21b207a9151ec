@@ -1,0 +1,96 @@
+1433556145s:3554:"a:5:{s:5:"mtime";i:1431561960;s:7:"content";s:1590:"title = "Recomendation-test"
+url = "/recomendation-test"
+layout = "default"
+hidden = "0"
+
+[Recommendations]
+recommend = "activity"
+viewTemplate = "dma.friends::%sPreview"
+viewClass = "col-md-3, col-sm-4"
+ifEmpty = "weight"
+limit = "0"
+
+[Recommendations Recommendations2]
+recommend = "activity"
+viewTemplate = "dma.friends::%sPreview"
+viewClass = "col-md-3, col-sm-4"
+ifEmpty = "popular"
+limit = "6"
+
+[Recommendations Recommendations3]
+recommend = "badge"
+viewTemplate = "dma.friends::%sPreview"
+viewClass = "col-md-3, col-sm-4"
+ifEmpty = "popular"
+limit = "34"
+
+[Recommendations Recommendations4]
+recommend = "badge"
+viewTemplate = "dma.friends::%sPreview"
+viewClass = "col-md-3, col-sm-4"
+ifEmpty = "popular"
+limit = "5"
+==
+<?php
+use RainLab\User\Models\User;
+use DMA\Friends\Models\Activity;
+use DMA\Friends\Models\Badge;
+
+function onStart(){
+    //$user = User::find(1);
+    //$activity = Activity::find(1);
+    //$badge = Badge::find(1);
+    //\Event::fire('dma.friends.activity.completed', [$user, $activity, $badge]);
+
+    //$recommendations = \Recommendation::suggest($user, ['badge', 'activity']);    
+    
+    //echo(json_encode($recommendations));
+    //var_dump($recomendations);
+
+    // $recomendations = \Recomendation::suggest($user, 'activity');
+    //echo(json_encode($recomendations));
+    
+}
+?>
+==
+<h2>activity weight</h2>
+{% component 'Recommendations' %}
+
+<h2>Activity popular</h2>
+{% component 'Recommendations2' %}
+ 
+<h2>activity  nothing</h2> 
+{% component 'Recommendations3' %}
+
+<h2>recomendation 4</h2>
+{% component 'Recommendations4' %}";s:8:"settings";a:5:{s:5:"title";s:18:"Recomendation-test";s:3:"url";s:19:"/recomendation-test";s:6:"layout";s:7:"default";s:6:"hidden";s:1:"0";s:10:"components";a:4:{s:15:"Recommendations";a:5:{s:9:"recommend";s:8:"activity";s:12:"viewTemplate";s:22:"dma.friends::%sPreview";s:9:"viewClass";s:18:"col-md-3, col-sm-4";s:7:"ifEmpty";s:6:"weight";s:5:"limit";s:1:"0";}s:32:"Recommendations Recommendations2";a:5:{s:9:"recommend";s:8:"activity";s:12:"viewTemplate";s:22:"dma.friends::%sPreview";s:9:"viewClass";s:18:"col-md-3, col-sm-4";s:7:"ifEmpty";s:7:"popular";s:5:"limit";s:1:"6";}s:32:"Recommendations Recommendations3";a:5:{s:9:"recommend";s:5:"badge";s:12:"viewTemplate";s:22:"dma.friends::%sPreview";s:9:"viewClass";s:18:"col-md-3, col-sm-4";s:7:"ifEmpty";s:7:"popular";s:5:"limit";s:2:"34";}s:32:"Recommendations Recommendations4";a:5:{s:9:"recommend";s:5:"badge";s:12:"viewTemplate";s:22:"dma.friends::%sPreview";s:9:"viewClass";s:18:"col-md-3, col-sm-4";s:7:"ifEmpty";s:7:"popular";s:5:"limit";s:1:"5";}}}s:4:"code";s:598:"
+use RainLab\User\Models\User;
+use DMA\Friends\Models\Activity;
+use DMA\Friends\Models\Badge;
+
+function onStart(){
+    //$user = User::find(1);
+    //$activity = Activity::find(1);
+    //$badge = Badge::find(1);
+    //\Event::fire('dma.friends.activity.completed', [$user, $activity, $badge]);
+
+    //$recommendations = \Recommendation::suggest($user, ['badge', 'activity']);    
+    
+    //echo(json_encode($recommendations));
+    //var_dump($recomendations);
+
+    // $recomendations = \Recomendation::suggest($user, 'activity');
+    //echo(json_encode($recomendations));
+    
+}
+";s:6:"markup";s:256:"<h2>activity weight</h2>
+{% component 'Recommendations' %}
+
+<h2>Activity popular</h2>
+{% component 'Recommendations2' %}
+ 
+<h2>activity  nothing</h2> 
+{% component 'Recommendations3' %}
+
+<h2>recomendation 4</h2>
+{% component 'Recommendations4' %}";}";

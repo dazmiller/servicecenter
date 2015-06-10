@@ -1,0 +1,8 @@
+1433556145s:510:"a:5:{s:5:"mtime";i:1431561960;s:7:"content";s:168:"title = "Activity Stream"
+url = "/activity-stream"
+layout = "default"
+hidden = "0"
+
+[ActivityStream]
+==
+<div id="activity-stream">{% component 'ActivityStream' %}</div>";s:8:"settings";a:5:{s:5:"title";s:15:"Activity Stream";s:3:"url";s:16:"/activity-stream";s:6:"layout";s:7:"default";s:6:"hidden";s:1:"0";s:10:"components";a:1:{s:14:"ActivityStream";a:0:{}}}s:4:"code";N;s:6:"markup";s:64:"<div id="activity-stream">{% component 'ActivityStream' %}</div>";}";

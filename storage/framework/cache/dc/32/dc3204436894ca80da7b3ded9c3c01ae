@@ -1,0 +1,47 @@
+1433205415s:1271:"a:5:{s:5:"mtime";i:1431499524;s:7:"content";s:560:"title = "Planner"
+url = "/planner"
+layout = "default"
+==
+<?php
+function onStart()
+{
+    $this['currentPage'] = 'plan';
+
+    $user = Auth::getUser();
+    $this['dishes'] = Responsiv\DishSmith\Models\Dish::with('ingredients')->ofUser($user)->ofWeek($this['activeWeek'])->get();
+}
+?>
+==
+{% put scripts %}
+<script>
+    $('#dishesContainer').dragScroll();
+</script>
+{% endput %}
+
+<div class="planner-page">
+    <div class="dishes-container" id="dishesContainer">
+        <ul class="dishes">
+            {% partial 'planner/dishes' %}
+        </ul>
+    </div>
+</div>";s:8:"settings";a:4:{s:5:"title";s:7:"Planner";s:3:"url";s:8:"/planner";s:6:"layout";s:7:"default";s:10:"components";a:0:{}}s:4:"code";s:216:"
+function onStart()
+{
+    $this['currentPage'] = 'plan';
+
+    $user = Auth::getUser();
+    $this['dishes'] = Responsiv\DishSmith\Models\Dish::with('ingredients')->ofUser($user)->ofWeek($this['activeWeek'])->get();
+}
+";s:6:"markup";s:276:"{% put scripts %}
+<script>
+    $('#dishesContainer').dragScroll();
+</script>
+{% endput %}
+
+<div class="planner-page">
+    <div class="dishes-container" id="dishesContainer">
+        <ul class="dishes">
+            {% partial 'planner/dishes' %}
+        </ul>
+    </div>
+</div>";}";

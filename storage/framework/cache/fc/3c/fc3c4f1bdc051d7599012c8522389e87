@@ -1,0 +1,27 @@
+1433483440s:472:"a:2:{s:5:"mtime";i:1433482836;s:7:"content";s:418:"
+
+<BR>
+<div class="panel panel-default">
+<div class="panel-heading"> 
+	<h3 class="panel-title">Current Requests for Services</h3>
+</div>
+<div class="panel-body">
+
+
+	{% set BusRequests = __SELF__.BusRequests %}
+
+	<ul class="list-group">
+
+	{% for BusRequest in BusRequests %}
+
+	<li class="list-group-item">{{ BusRequest }}
+		<buttom class="close pull-right">&times;</buttom>
+	</li>
+	{% endfor %}
+
+
+	</ul>
+
+</div>
+</div>
+";}";

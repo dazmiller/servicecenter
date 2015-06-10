@@ -1,0 +1,33 @@
+1433556194s:1162:"a:5:{s:5:"mtime";i:1431561960;s:7:"content";s:515:"[googleTracker]
+==
+        <!-- Scripts -->
+        <script src="{{ [
+            '@jquery',
+            '@framework',
+            '@framework.extras',
+            'assets/vendor/bootstrap/js/bootstrap.js',
+            'assets/vendor/jquery-ui/jquery-ui.js',
+            'assets/vendor/parsley.remote.js',
+            'assets/vendor/parsley.js',	
+            'assets/javascript/app.js'
+        ]|theme }}"></script>
+        {% scripts %}
+
+        {% component 'googleTracker' %}
+    </body>
+</html>";s:8:"settings";a:1:{s:10:"components";a:1:{s:13:"googleTracker";a:0:{}}}s:4:"code";N;s:6:"markup";s:486:"<!-- Scripts -->
+        <script src="{{ [
+            '@jquery',
+            '@framework',
+            '@framework.extras',
+            'assets/vendor/bootstrap/js/bootstrap.js',
+            'assets/vendor/jquery-ui/jquery-ui.js',
+            'assets/vendor/parsley.remote.js',
+            'assets/vendor/parsley.js',	
+            'assets/javascript/app.js'
+        ]|theme }}"></script>
+        {% scripts %}
+
+        {% component 'googleTracker' %}
+    </body>
+</html>";}";

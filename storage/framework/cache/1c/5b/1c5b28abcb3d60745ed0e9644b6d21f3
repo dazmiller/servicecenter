@@ -1,0 +1,8 @@
+1433555693s:416:"a:2:{s:5:"mtime";i:1432767938;s:7:"content";s:362:"<div class="row login">
+    <div class="col-md-6 col-sm-6">
+        <a href="#" class="button alternate login-link pop" data-control="popup" data-handler="onLogin">Log in</a>
+    </div>
+    <div class="col-md-6 col-sm-6">
+        <a href="#" class="button alternate register-link pop" data-control="popup" data-handler="onRegister">Register</a>
+    </div>
+</div>";}";

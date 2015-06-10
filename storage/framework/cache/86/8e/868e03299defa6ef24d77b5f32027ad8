@@ -1,0 +1,76 @@
+1433556193s:2109:"a:5:{s:5:"mtime";i:1431561960;s:7:"content";s:977:"description = "Default layout"
+
+[UserTimeout]
+timeout = "30"
+==
+<?php
+function onStart()
+{
+    if (!$user = Auth::getUser()) {
+        return Redirect::to('/');
+    }
+    
+    $this['user'] = $user;
+}
+?>
+==
+{% partial "header" %}
+
+<!-- Content -->
+<section id="layout-content" class="container">
+    <div class="row primary-links">
+        <div class="item col-xs-3 col-md-3">
+            <a class="icon-home" href="/friends">Home</a>
+        </div>
+        <div class="item col-xs-3 col-md-3">
+            <a class="icon-circle-o" href="/badges">My Badges</a>
+        </div>
+        <div class="item col-xs-3 col-md-3">
+            <a class="icon-trophy" href="/rewards">Get Rewards</a>
+        </div>
+        <div class="item col-xs-3 col-md-3">
+            <a class="icon-user" href="/profile">My Profile</a>
+        </div>
+        </ul>
+    </div>
+    
+    {% page %}
+    
+    {% component 'UserTimeout' %}
+</section>
+
+{% partial "footer" %}";s:8:"settings";a:2:{s:11:"description";s:14:"Default layout";s:10:"components";a:1:{s:11:"UserTimeout";a:1:{s:7:"timeout";s:2:"30";}}}s:4:"code";s:139:"
+function onStart()
+{
+    if (!$user = Auth::getUser()) {
+        return Redirect::to('/');
+    }
+    
+    $this['user'] = $user;
+}
+";s:6:"markup";s:763:"{% partial "header" %}
+
+<!-- Content -->
+<section id="layout-content" class="container">
+    <div class="row primary-links">
+        <div class="item col-xs-3 col-md-3">
+            <a class="icon-home" href="/friends">Home</a>
+        </div>
+        <div class="item col-xs-3 col-md-3">
+            <a class="icon-circle-o" href="/badges">My Badges</a>
+        </div>
+        <div class="item col-xs-3 col-md-3">
+            <a class="icon-trophy" href="/rewards">Get Rewards</a>
+        </div>
+        <div class="item col-xs-3 col-md-3">
+            <a class="icon-user" href="/profile">My Profile</a>
+        </div>
+        </ul>
+    </div>
+    
+    {% page %}
+    
+    {% component 'UserTimeout' %}
+</section>
+
+{% partial "footer" %}";}";

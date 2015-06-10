@@ -1,0 +1,24 @@
+1433556145s:826:"a:5:{s:5:"mtime";i:1431561960;s:7:"content";s:316:"title = "Group Requests"
+url = "/group/request"
+layout = "default"
+description = "User group request"
+hidden = "0"
+
+[GroupRequest]
+noUserRedirectTo = "/"
+==
+<h2>Manager your group memberships</h2>
+
+<p class="lead">
+    You can manage here all your group memberships.<br/>
+</p>
+
+
+{% component 'GroupRequest' %}";s:8:"settings";a:6:{s:5:"title";s:14:"Group Requests";s:3:"url";s:14:"/group/request";s:6:"layout";s:7:"default";s:11:"description";s:18:"User group request";s:6:"hidden";s:1:"0";s:10:"components";a:1:{s:12:"GroupRequest";a:1:{s:16:"noUserRedirectTo";s:1:"/";}}}s:4:"code";N;s:6:"markup";s:159:"<h2>Manager your group memberships</h2>
+
+<p class="lead">
+    You can manage here all your group memberships.<br/>
+</p>
+
+
+{% component 'GroupRequest' %}";}";

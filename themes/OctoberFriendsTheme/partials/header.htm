@@ -1,0 +1,95 @@
+[NotificationCounter]
+goToNotificationPage = "/notifications"
+cssClass = "nav-item notifications-feed icon-envelope"
+==
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Friends - {{ this.page.title }}</title>
+
+        <link rel="Shortcut Icon" href="{{ 'assets/images/favicon.ico'|theme }}" type="image/x-icon">
+        <meta name="author" content="Dallas Museum of Art">
+        <meta name="robots" content="noindex,follow">
+
+
+        <!-- include apple icons and splash screens -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <meta content="yes" name="apple-mobile-web-app-capable">
+
+        <!-- iPad -->
+        <link href="{{ 'assets/images/apple-touch-icon-72x72.png'|theme }}" sizes="72x72" rel="apple-touch-icon">
+        <link href="{{ 'assets/images/apple-touch-startup-image-768x1004.png'|theme }}" media="(device-width: 768px) and (device-height: 1024px)
+                 and (orientation: portrait)
+                 and (-webkit-device-pixel-ratio: 1)" rel="apple-touch-startup-image">
+        <link href="{{ 'assets/images/apple-touch-startup-image-748x1024.png'|theme }}" media="(device-width: 768px) and (device-height: 1024px)
+                 and (orientation: landscape)
+                 and (-webkit-device-pixel-ratio: 1)" rel="apple-touch-startup-image">
+
+        <!-- iPad (Retina) -->
+        <link href="{{ 'assets/images/apple-touch-icon-144x144.png'|theme }}" sizes="144x144" rel="apple-touch-icon">
+        <link href="{{ 'assets/images/apple-touch-startup-image-1536x2008.png'|theme }}" media="(device-width: 768px) and (device-height: 1024px)
+                 and (orientation: portrait)
+                 and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image">
+        <link href="{{ 'assets/images/apple-touch-startup-image-1496x2048.png'|theme}}" media="(device-width: 768px) and (device-height: 1024px)
+                 and (orientation: landscape)
+                 and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image">
+
+        <link rel="icon" type="image/png" href="{{ 'assets/images/logo.png'|theme }}" />
+        {% styles %}
+        <link href="{{ [
+            '../../modules/backend/assets/css/october.css',
+            'assets/vendor/bootstrap/css/bootstrap.css',
+            'assets/vendor/jquery-ui/jquery-ui.css',
+            'assets/vendor/jquery-ui/jquery-ui.structure.css',
+            'assets/vendor/jquery-ui/jquery-ui.theme.css',
+            'assets/vendor/parsley.css',
+            'assets/css/theme.less',
+            'assets/css/badge.css',
+            'assets/css/reward.css',
+            'assets/css/kiosk.css'
+        ]|theme }}" rel="stylesheet">
+    </head>
+    <body class="{{ this.page.baseFileName }}"
+        {% if location.image is not null %}
+        style="background-repeat: no-repeat;
+        background-size: 100%;
+        background-image: url('{{ location.image.getPath() }}');"
+        {% endif %}
+    >
+
+    <!-- Preloader -->
+    <div id="preloader">
+        <div id="status">&nbsp;</div>
+    </div>
+        
+    <!-- Header -->
+    <header id="layout-header" data-spy="affix" data-offset-top="60">
+        {% if user %}
+        <!-- Nav -->
+        <nav id="layout-nav" class="navbar-inverse" role="navigation">
+            <div class="container">
+                <div class="collapse navbar-collapse navbar-main-collapse">
+
+                    <ul class="nav navbar-nav left">
+                        <li><img class="user-avatar" src="{{ user.avatar.getThumb(50, 50) }}"></li>
+                        <li><h4 class="user-name">Hello, {{ user.metadata.first_name }}</h4></li>
+                        <li><span class="points">{{ user.points|number_format }} Points</span></li>
+                    </ul>
+                    <ul class="nav navbar-nav right">
+                        <li><a class="nav-item activity-feed icon-list" href="/activity-stream">Activity Stream</a></li>
+                        <li>{% component 'NotificationCounter' %}</li>
+                        <!--
+                        <li><a class="nav-item group-feed icon-users" href="/group">Groups</a></li>
+                        -->
+                        <li><a class="nav-item user-logout icon-sign-out" href="/logout">Sign out</a></li>
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+        {% endif %}
+
+    </header>
+
+    <div id="flashMessages">
+    </div>

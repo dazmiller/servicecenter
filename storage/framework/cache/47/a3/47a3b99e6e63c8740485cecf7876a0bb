@@ -1,0 +1,77 @@
+1433555498s:4170:"a:5:{s:5:"mtime";i:1433285096;s:7:"content";s:2011:"description = "Customer testimonials"
+
+[viewBag]
+==
+<div id="feedbacks">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 center feedbacks-header mbottom30">
+                        <span>100%</span>
+                        <h2 class="section-title">Positive feedbacks from our customers</h2>
+                        <p>Made for the Company Presentation</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-4">
+                        <div class="feedback-box clearfix">
+                            <img src="{{ 'assets/images/feedbacks/feedback1.jpg'|theme }}" alt="">
+                            <blockquote>Things are made to happen.</blockquote>
+                        </div>
+                        <h5 class="mtop20">Zoi Dawson</h5>
+                        <p>Co-founder, Company Name</p>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="feedback-box clearfix">
+                            <img src="{{ 'assets/images/feedbacks/feedback2.jpg'|theme }}" alt="">
+                            <blockquote>The secret of getting ahead is getting started.</blockquote>
+                        </div>
+                        <h5 class="mtop20">Sam Dawson</h5>
+                        <p>Marketing, Company Name</p>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="feedback-box clearfix">
+                            <img src="{{ 'assets/images/feedbacks/feedback3.jpg'|theme }}" alt="">
+                            <blockquote>By failing to prepare, you are preparing to fail.</blockquote>
+                        </div>
+                        <h5 class="mtop20">Elena White</h5>
+                        <p>Development, Company Name</p>
+                    </div>
+                </div>
+            </div>
+        </div>";s:8:"settings";a:2:{s:11:"description";s:21:"Customer testimonials";s:10:"components";a:1:{s:7:"viewBag";a:0:{}}}s:4:"code";N;s:6:"markup";s:1955:"<div id="feedbacks">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 center feedbacks-header mbottom30">
+                        <span>100%</span>
+                        <h2 class="section-title">Positive feedbacks from our customers</h2>
+                        <p>Made for the Company Presentation</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-4">
+                        <div class="feedback-box clearfix">
+                            <img src="{{ 'assets/images/feedbacks/feedback1.jpg'|theme }}" alt="">
+                            <blockquote>Things are made to happen.</blockquote>
+                        </div>
+                        <h5 class="mtop20">Zoi Dawson</h5>
+                        <p>Co-founder, Company Name</p>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="feedback-box clearfix">
+                            <img src="{{ 'assets/images/feedbacks/feedback2.jpg'|theme }}" alt="">
+                            <blockquote>The secret of getting ahead is getting started.</blockquote>
+                        </div>
+                        <h5 class="mtop20">Sam Dawson</h5>
+                        <p>Marketing, Company Name</p>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="feedback-box clearfix">
+                            <img src="{{ 'assets/images/feedbacks/feedback3.jpg'|theme }}" alt="">
+                            <blockquote>By failing to prepare, you are preparing to fail.</blockquote>
+                        </div>
+                        <h5 class="mtop20">Elena White</h5>
+                        <p>Development, Company Name</p>
+                    </div>
+                </div>
+            </div>
+        </div>";}";

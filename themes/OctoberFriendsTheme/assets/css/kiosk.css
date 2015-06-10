@@ -1,0 +1,29 @@
+@media only screen 
+    and (min-device-width : 768px) 
+    and (max-device-width : 1024px) {
+
+
+    body.login {
+      overflow: hidden;
+    }
+
+    #status { display: none; opacity: 0;}
+
+    /**** Modal Dialog ****/
+    .login .modal-dialog {
+      margin-top: 13%;
+    }
+    #card-scan.popup {
+      height: 340px;
+    }
+
+    .preview {
+      height: 450px !important;
+    }
+}
+
+/**** Login form ****/
+#login #errorBlock {
+  margin: 15px 0;
+  display: block;
+}

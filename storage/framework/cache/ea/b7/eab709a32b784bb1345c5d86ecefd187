@@ -1,0 +1,64 @@
+1433556145s:2094:"a:5:{s:5:"mtime";i:1431561960;s:7:"content";s:971:"title = "listenChannels-test"
+url = "/listenchannels-test"
+hidden = "0"
+==
+<?php
+function onStart(){
+    \Postman::listen([['dummy', 'sms'], 'regex' => '/(\d.*)\.(\d.*)/', 'contains' => ['DMA', 'caseInsensitive' => true ]], function($message){
+         	var_dump($message);
+         	var_dump($message->getMatches());
+    });
+    
+    // 
+    
+    \Postman::listen(['dummy', 'startswith' => 'DMA', 'equals' => ' DMA    345345.34543  ', 'endswith' => '34543' ], function($message){
+         	var_dump($message);
+         	var_dump($message->getMatches());
+    });    
+ 
+    \Postman::listen('twitter', function($message){
+         	var_dump($message);
+         //var_dump($message->getMatches());
+    });    
+
+    \Postman::listen('dummy', function($message){
+         	var_dump($message);
+         //var_dump($message->getMatches());
+    });     
+ 
+    \Postman::readChannels();   
+    
+    //\Postman::listen();
+    //\Postman::send();
+}
+?>
+==";s:8:"settings";a:4:{s:5:"title";s:19:"listenChannels-test";s:3:"url";s:20:"/listenchannels-test";s:6:"hidden";s:1:"0";s:10:"components";a:0:{}}s:4:"code";s:886:"
+function onStart(){
+    \Postman::listen([['dummy', 'sms'], 'regex' => '/(\d.*)\.(\d.*)/', 'contains' => ['DMA', 'caseInsensitive' => true ]], function($message){
+         	var_dump($message);
+         	var_dump($message->getMatches());
+    });
+    
+    // 
+    
+    \Postman::listen(['dummy', 'startswith' => 'DMA', 'equals' => ' DMA    345345.34543  ', 'endswith' => '34543' ], function($message){
+         	var_dump($message);
+         	var_dump($message->getMatches());
+    });    
+ 
+    \Postman::listen('twitter', function($message){
+         	var_dump($message);
+         //var_dump($message->getMatches());
+    });    
+
+    \Postman::listen('dummy', function($message){
+         	var_dump($message);
+         //var_dump($message->getMatches());
+    });     
+ 
+    \Postman::readChannels();   
+    
+    //\Postman::listen();
+    //\Postman::send();
+}
+";s:6:"markup";s:0:"";}";

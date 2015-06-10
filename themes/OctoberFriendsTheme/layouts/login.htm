@@ -1,0 +1,17 @@
+description = "Login Screen layout"
+==
+<?php
+function onStart()
+{    
+    $this['location'] = \DMA\Friends\Classes\LocationManager::getLocation();
+}
+?>
+==
+{% partial "header" %}
+
+<!-- Content -->
+<section id="layout-content">
+    {% page %}
+</section>
+
+{% partial "footer" %}

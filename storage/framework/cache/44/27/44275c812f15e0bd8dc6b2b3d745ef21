@@ -1,0 +1,23 @@
+1433556145s:795:"a:5:{s:5:"mtime";i:1431561960;s:7:"content";s:306:"title = "Group"
+url = "/group"
+layout = "default"
+description = "User group creation"
+hidden = "0"
+
+[GroupManager]
+==
+<h2>Create a Group</h2>
+
+<p class="lead">
+    You can use Groups to quickly earn and share points with all your friends or family members.<br/>
+</p>
+
+
+{% component 'GroupManager' %}";s:8:"settings";a:6:{s:5:"title";s:5:"Group";s:3:"url";s:6:"/group";s:6:"layout";s:7:"default";s:11:"description";s:19:"User group creation";s:6:"hidden";s:1:"0";s:10:"components";a:1:{s:12:"GroupManager";a:0:{}}}s:4:"code";N;s:6:"markup";s:188:"<h2>Create a Group</h2>
+
+<p class="lead">
+    You can use Groups to quickly earn and share points with all your friends or family members.<br/>
+</p>
+
+
+{% component 'GroupManager' %}";}";

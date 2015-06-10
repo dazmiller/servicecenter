@@ -1,0 +1,61 @@
+1433556208s:1530:"a:2:{s:5:"mtime";i:1432767938;s:7:"content";s:1475:"<div id="notifications-list">
+{% if notifications %}
+{% for notification in notifications %}
+	
+	
+		{% set notifyDate = date(notification.created_at) %}
+		
+		{%  if notifyDate  >= date("today") %}
+			{% set group = 'Today' %}
+		{% elseif notifyDate >= date("yesterday") %}
+			{% set group = 'Yesterday' %}
+		{% else %}
+			{% set group = notifyDate|date('F d') %}
+		{% endif %}
+	
+	{% if currentGroup != group %}
+		{% set currentGroup = group %}
+
+		{% if not tools and unReadCount > 0 %}
+			{% set tools = true %}
+			<div class="col-md-12">
+			<a data-remove="{{ onlyUnread }}" 
+			   class="markReadAll pull-right"
+			   data-request-success=""
+			   href="#" class="pull-right">mark all as read</a>	
+			   
+			</div>
+		{% endif %}
+
+		<h3>{{ currentGroup }}</h3>
+			
+	{% endif %}
+	
+	
+	<div class="notification {{ ( not notification.is_read )? 'notification-unread' : '' }}">
+
+		<button data-id="{{ notification.id }}"
+				data-remove="{{ onlyUnread }}"
+				class="markRead close"
+				type="button" class="close" >
+				<span aria-hidden="true">&times;</span><span class="sr-only">Close</span>
+		</button>
+		
+		{% if notification.subject %}
+			<h4>{{ notification.subject }}</h4>
+		{% endif %}
+		<div id="message">
+			{{ notification.message|raw }}
+		</div>
+		<div id="time">
+			<small>{{ notification.created_at|date("g:i A") }}</small>
+		</div>
+
+	</div>	
+{% endfor %}
+{% else %}
+	<div>
+		<p class="text-center lead">There are no new notifications</p>
+	</div>
+{% endif %}
+</div>";}";

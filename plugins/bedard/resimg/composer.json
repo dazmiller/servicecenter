@@ -1,0 +1,17 @@
+{
+    "name": "bedard/resimg",
+    "description": "HTML5 responsive image support for OctoberCMS.",
+    "homepage": "http://scottbedard.net/",
+    "keywords": ["octobercms", "responsive", "image", "html5"],
+    "authors": [
+        {
+            "name": "Scott Bedard",
+            "email": "scottbedard90@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "owl/knob": "~1.0@dev",
+        "owl/tagbox": "~1.0@dev"
+    }
+}

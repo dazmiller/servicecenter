@@ -1,0 +1,4 @@
+1433556194s:112:"a:2:{s:5:"mtime";i:1432767938;s:7:"content";s:59:"<div class="most-recent-badge">
+    {{ badge|raw }}
+</div>
+";}";

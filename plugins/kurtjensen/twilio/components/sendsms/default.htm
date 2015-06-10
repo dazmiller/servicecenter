@@ -1,0 +1,23 @@
+<h3>Paging Checklist {{ __SELF__.CLid|number_format  }}</h3>
+{% if __SELF__.Error %} 
+<div style="background-color:#FF8900; padding:10px;">{{ __SELF__.Error }} You can try <a onclick="window.history.back();">going back</a> to see if your form information was preserved.</div>
+{% else %}
+<table class="table">
+    <tbody>
+        <tr>
+            <th><strong>NAME</strong></th>
+            <th>PHONE</th>
+            <th>STATUS</th>
+            <th>PHONE ID</th>
+        </tr>
+{% for key, dev  in __SELF__.logDev  %}
+        <tr>
+            <td><strong>{{ dev.name }}</strong></td>
+            <td>{{ dev.phone }}</td>
+            <td class="{% if dev.devicestatus==0 %}success{% else %}fail{% endif %}">{{ dev.statustext }}</td>
+            <td>{{ dev.cellphone_id }}</td>
+        </tr>
+{% endfor %}
+    </tbody>
+</table>
+{% endif %}

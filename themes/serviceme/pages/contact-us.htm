@@ -1,0 +1,245 @@
+title = "Contact Us"
+url = "/contact"
+layout = "default"
+hidden = "0"
+child_of = "mey_no_parent"
+hide_crumb = "0"
+remove_crumb_trail = "0"
+crumb_disabled = "0"
+==
+<div class="header-breadcrumb">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-12">
+						<h1 class="section-title fleft">Contact</h1>
+						<ul class="reset-list">
+							<li>
+								<p>Home</p>
+							</li>
+							<li>/</li>
+							<li class="active">
+								<p>Contact</p>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+	</div><!-- end header-breadcrumb -->
+	<div id="content">
+		<div id="map" class="mbottom60">
+    	</div><!-- end map -->
+    	<div class="container">
+    		<div class="row">
+    			<div class="col-sm-8">
+    				<h2 class="section-title mbottom50">Get In Touch</h2>
+    				<p class="mbottom30 gray">Donec ullamcorper nulla non ms ac is mollis, est non commodo luctus, nisi ula, eget lacinia odio sem nec elit. Aene ndum nulla sed. Donec ullamcorper nulla non metus ac is mollis, est non commodo luctus.</p>
+    				<div id="contact_form">
+						<form name="htmlform" method="post" action="addons/contact_form_send.php">
+							<div class="field">	
+								<div class="label-form">
+									<input type="text" placeholder="Your Name (required)" name="name" maxlength="50" size="30" required>
+								</div>
+							</div>
+							<div class="field">
+								<div class="label-form">
+									<input type="email" placeholder="Your Email (required)" name="email" maxlength="80" size="30" required>
+								</div>
+							</div>
+							<div class="field">
+								<div class="label-form">
+									<input type="text" placeholder="Subject" name="subject" maxlength="50" size="30" required>
+								</div>	
+							</div>
+							<div class="field">
+								<div class="label-form">
+									<textarea name="comments" placeholder="Your Message" maxlength="1000" cols="25" rows="6" required></textarea>
+								</div>
+							</div>
+							<div class="field submit">
+								<button type="submit" class="btn2 btn-2 mbottom60" tabindex="5">Send Message</button>
+							</div>					
+						</form>
+					</div><!-- end contact_form -->
+    			</div>
+    			<div class="col-sm-4">
+    				<ul class="contact-info reset-list">
+    					<li class="mbottom30">
+    						<span class="icon-location"></span>
+    						<h4>Address</h4>
+    						<p>Suite 127 / 267 – 277 Brussel St, 62 Croydon, NYC Newyork</p>
+    					</li>
+    					<li class="mbottom30">
+    						<span class="icon-briefcase"></span>
+    						<h4>Business Enquiries</h4>
+    						<p>Doloremque laudantium, totam rem aperiam, inventore veritatio beatae.</p>
+    						<p class="tcolor">biz@cleanlab.com</p>
+    					</li>
+    					<li class="mbottom30">
+    						<span class="icon-user-plus3"></span>
+    						<h4>Employment</h4>
+    						<p>We’re always looking for talented persons to join our team.</p>
+    						<p class="tcolor">hr@cleanlab.com</p>
+    					</li>
+    				</ul>
+    			</div>
+    		</div>
+    	</div>
+	</div><!-- end content -->
+	<!-- Start Google Maps code -->
+
+        
+<script SRC="{{ ['assets/js/jquery.gmap.min.js']|theme }}"></script>
+
+<script type="text/javascript"> /* Google Map */
+	jQuery(document).ready(function() {
+
+		/*
+		Find the Latitude and Longitude of your address:
+			- http://itouchmap.com/latlong.blade.php
+			- http://universimmedia.pagesperso-orange.fr/geo/loc.htm
+			- http://www.findlatitudeandlongitude.com/find-address-from-latitude-and-longitude/
+		
+		Find settings explained:
+			- https://github.com/marioestrada/jQuery-gMap
+
+		*/
+			
+		// Map Markers
+		var mapMarkers = [{
+			address: "1057 Lexington Ave New York, NY 10021",
+			latitude: 40.790278,
+			longitude: -73.959722,
+			icon: {
+				image: "images/map_marker.png",
+				iconsize: [152, 56], // w, h
+				iconanchor: [21, 53] // x, y
+			}
+		},{
+			address: "612 73rd St orth Bergen, NJ 07047",
+			latitude: 40.790278,
+			longitude: -73.959722,
+			icon: {
+				image: "images/map_marker.png",
+				iconsize: [152, 56], // w, h
+				iconanchor: [21, 53] // x, y
+			}
+		}];
+		
+		// Map Color Scheme - more styles here http://snazzymaps.com/
+		var mapStyles = [
+			{
+				"featureType": "water",
+				"stylers": [
+					{
+						"visibility": "on"
+					},
+					{
+						"color": "#acbcc9"
+					}
+				]
+			},
+			{
+				"featureType": "landscape",
+				"stylers": [
+					{
+						"color": "#f2e5d4"
+					}
+				]
+			},
+			{
+				"featureType": "road.highway",
+				"elementType": "geometry",
+				"stylers": [
+					{
+						"color": "#c5c6c6"
+					}
+				]
+			},
+			{
+				"featureType": "road.arterial",
+				"elementType": "geometry",
+				"stylers": [
+					{
+						"color": "#e4d7c6"
+					}
+				]
+			},
+			{
+				"featureType": "road.local",
+				"elementType": "geometry",
+				"stylers": [
+					{
+						"color": "#fbfaf7"
+					}
+				]
+			},
+			{
+				"featureType": "poi.park",
+				"elementType": "geometry",
+				"stylers": [
+					{
+						"color": "#c5dac6"
+					}
+				]
+			},
+			{
+				"featureType": "administrative",
+				"stylers": [
+					{
+						"visibility": "on"
+					},
+					{
+						"lightness": 33
+					}
+				]
+			},
+			{
+				"featureType": "road"
+			},
+			{
+				"featureType": "poi.park",
+				"elementType": "labels",
+				"stylers": [
+					{
+						"visibility": "on"
+					},
+					{
+						"lightness": 20
+					}
+				]
+			},
+			{},
+			{
+				"featureType": "road",
+				"stylers": [
+					{
+						"lightness": 20
+					}
+				]
+			}
+		];
+		
+		// Map Initial Location
+		var initLatitude = 40.790278;
+		var initLongitude = -73.959722;
+
+		// Map Extended Settings
+		var map = jQuery("#map").gMap({
+			controls: {
+				panControl: true,
+				zoomControl: true,
+				mapTypeControl: true,
+				scaleControl: true,
+				streetViewControl: true,
+				overviewMapControl: true
+			},
+			scrollwheel: false,
+			markers: mapMarkers,
+			latitude: initLatitude,
+			longitude: initLongitude,
+			zoom: 12,
+			style: mapStyles
+		});
+
+	});
+</script>

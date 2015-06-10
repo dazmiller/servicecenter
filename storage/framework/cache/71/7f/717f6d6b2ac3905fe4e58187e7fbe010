@@ -1,0 +1,5 @@
+1433556194s:151:"a:2:{s:5:"mtime";i:1431655434;s:7:"content";s:98:"<div class="row">	
+{% for recommend  in __SELF__.items %}
+	{{ recommend|raw }}
+{% endfor %}
+</div>";}";

@@ -1,0 +1,17 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+fields:
+    account_sid:
+        label: AccountSID
+        type: text
+        span: left
+        comment: Your Account SID from www.twilio.com/user/account
+        placeholder: ACXXXXXX
+    auth_token:
+        label: AuthToken
+        type: text
+        span: left
+        comment: Your Auth Token from www.twilio.com/user/account
+        placeholder: YYYYYY

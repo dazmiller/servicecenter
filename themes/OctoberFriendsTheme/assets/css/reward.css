@@ -1,0 +1,68 @@
+.friends-reward.preview {
+    background: #ebeae6;
+    color: #8d7c75;
+    margin-bottom: 20px;
+    height: 180px !important;
+    padding: 0;
+}
+
+.friends-reward button {
+    width: 100%;
+}
+
+.friends-reward .image {
+    padding-left: 0;
+    float: left;
+}
+
+.friends-reward .image img {
+    height: 180px;
+    width: 100%;
+}
+
+.friends-reward .description {
+    float: left;
+    padding-top: 10px;
+}
+
+.friends-reward .claim {
+    float: right;
+    padding-top: 10px;
+}
+
+.reward-buttons {
+    margin-bottom: 20px;
+}
+
+.rewards-menu {
+    margin-bottom: 20px;
+}
+
+.rewards-menu ul,
+.rewards-menu ul li {
+    display: inline;
+    list-style: none;
+    padding: 0;
+}
+
+.reward-full .image img {
+    max-width: 100%;
+}
+
+.reward-full .redeem {
+    width: 100%;
+    margin: 30px 0;
+}
+
+.reward-full .buttons {
+    margin-right: 15px;
+}
+
+.reward-full .description {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+.preview .special.limited {
+    left: -30px;
+    top: 20px;
+}

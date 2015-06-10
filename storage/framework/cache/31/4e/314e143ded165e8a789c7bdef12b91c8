@@ -1,0 +1,6 @@
+1433556194s:230:"a:2:{s:5:"mtime";i:1432767938;s:7:"content";s:176:"<a href="#" class="usertimeoutHandler" data-control="popup" data-handler="onRenderModal">Logout</a>
+
+<script type="text/javascript">
+var modalTimeout = {{ timeout }}
+</script>
+";}";

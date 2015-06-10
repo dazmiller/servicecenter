@@ -1,0 +1,71 @@
+1433555571s:2755:"a:2:{s:5:"mtime";i:1432767938;s:7:"content";s:2700:"<div class="activity-stream row">
+    <div class="col-md-9 col-sm-9">
+        <ul class="items list-group">
+            {% for result in results %}
+                <li class="list-group-item">
+                    <span class="time-ago">{{ result.timeAgo }}</span>
+                    {% if result.action == 'reward' %}
+                        You claimed a reward
+                        <div>"{{ result.object.title }}"</div>
+                    {% elseif result.action == 'unlocked' %}
+                        You earned a badge 
+                        <div>"{{ result.object.title }}"</div>
+                    {% elseif result.action == 'activity' %}
+                        You completed the activity
+                        <div>"{{ result.object.title }}"</div>
+                    {% elseif result.action == 'artwork' %}
+                        Liked a work of art
+                        <div>{{ result.artwork_id }}</div>
+                    {% endif %}
+                </li>
+            {% endfor %}
+        </ul>
+        <div class="links">{{ links|raw }}</div>
+    </div>
+
+    <div class="col-md-3 col-sm-3">
+        <ul class="filter-buttons-wrap button-group buttons">
+            <li class="first">
+                <a 
+                    class="filter-all button large current icon-align-justify" 
+                    href="#" 
+                    data-request="onUpdate" 
+                    data-request-data="filter: 'all'"
+                >View All</a>
+            </li>
+            <li>
+                <a 
+                    class="filter-stream-badge button large icon-circle-o" 
+                    href="#" 
+                    data-request="onUpdate" 
+                    data-request-data="filter: 'unlocked'"
+                >Badges</a>
+            </li>
+            <li>
+                <a 
+                    class="filter-stream-reward button large icon-trophy" 
+                    href="#" 
+                    data-request="onUpdate" 
+                    data-request-data="filter: 'reward'"
+                >Rewards</a>
+            </li>
+            <li>
+                <a 
+                    class="filter-stream-activity button large icon-check" 
+                    href="#" 
+                    data-request="onUpdate" 
+                    data-request-data="filter: 'activity'"
+                >Activities</a>
+            </li>
+            <li>
+                <a 
+                    class="filter-stream-artwork button large icon-heart" 
+                    href="#" 
+                    data-request="onUpdate" 
+                    data-request-data="filter: 'artwork'"
+                >Liked Art</a>
+            </li>
+        </ul>
+    </div>
+</div>
+";}";

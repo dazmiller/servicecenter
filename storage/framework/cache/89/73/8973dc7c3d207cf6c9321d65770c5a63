@@ -1,0 +1,240 @@
+1433555475s:23091:"a:5:{s:5:"mtime";i:1433289615;s:7:"content";s:11439:"title = "Privacy Policy"
+url = "/privacy"
+layout = "default"
+description = "Privacy Policy"
+hidden = "0"
+meta_title = "Privacy"
+child_of = "mey_no_parent"
+hide_crumb = "0"
+remove_crumb_trail = "0"
+crumb_disabled = "0"
+==
+<div class="header-breadcrumb mbottom50">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-12">
+						<h1 class="section-title fleft">Privacy Policy</h1>
+						<ul class="reset-list">
+							<li>
+								<p>Our Promise</p>
+							</li>
+							<li>/</li>
+							<li class="active">
+								<p>Privacy</p>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+	</div><!-- end header-breadcrumb -->
+	<div id="content">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-9">
+					<h2 class="mbottom30">Fancy Titles</h2>
+					<h2 class="satisfy-title">I am a fancy title! I accept any font, size and color.</h2>
+					<h2 class="default-title">I am a fancy title! I accept any font, size and color.</h2>
+					<h2 class="romanesco-title">I am a fancy title! I accept any font, size and color.</h2>
+					<div class="separator mtop70 mbottom70"></div>
+					<h2 class="mbottom30">Headings</h2>
+					<h1>H1 Heading</h1>
+					<p class="gray mbottom30">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+					<h2>H2 Heading</h2>
+					<p class="gray mbottom30">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+					<h3>H3 Heading</h3>
+					<p class="gray mbottom30">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+					<h4>H4 Heading</h4>
+					<p class="gray mbottom30">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+					<h5>H5 Heading</h5>
+					<p class="gray mbottom30">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+					<h6>H6 Heading</h6>
+					<p class="gray mbottom30">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+					<div class="separator mtop70 mbottom70"></div>
+					<h2>Lists</h2>
+					<h6>Unordered</h6>
+					<p>A list of items in which the order does not explicitly matter.</p>
+					<ul class="mbottom20">
+						<li>Lorem ipsum dolor sit amet</li>
+						<li>Consectetur adipiscing elit</li>
+						<li>Integer molestie lorem at massa</li>
+						<li>Facilisis in pretium nisl aliquet</li>
+						<li>Nulla volutpat aliquam velit
+							<ul>
+								<li>Phasellus iaculis neque</li>
+								<li>Purus sodales ultricies</li>
+								<li>Vestibulum laoreet porttitor sem</li>
+								<li>Ac tristique libero volutpat at</li>
+							</ul>
+						</li>
+						<li>Faucibus porta lacus fringilla vel</li>
+						<li>Aenean sit amet erat nunc</li>
+						<li>Eget porttitor lorem</li>
+					</ul>
+					<h6>Styled Lists</h6>
+					<ul class="mbottom30 styled-list">
+						<li>Lorem ipsum dolor sit amet</li>
+						<li>Consectetur adipiscing elit</li>
+						<li>Integer molestie lorem at massa</li>
+						<li>Facilisis in pretium nisl aliquet</li>
+						<li>Nulla volutpat aliquam velit
+							<ul>
+								<li>Phasellus iaculis neque</li>
+								<li>Purus sodales ultricies</li>
+								<li>Vestibulum laoreet porttitor sem</li>
+								<li>Ac tristique libero volutpat at</li>
+							</ul>
+						</li>
+						<li>Faucibus porta lacus fringilla vel</li>
+						<li>Aenean sit amet erat nunc</li>
+						<li>Eget porttitor lorem</li>
+					</ul>
+					<h6>Ordered</h6>
+					<ol>
+						<li>Lorem ipsum dolor sit amet</li>
+						<li>Consectetur adipiscing elit</li>
+						<li>Integer molestie lorem at massa</li>
+						<li>Facilisis in pretium nisl aliquet</li>
+						<li>Nulla volutpat aliquam velit</li>
+						<li>Faucibus porta lacus fringilla vel</li>
+						<li>Aenean sit amet erat nunc</li>
+						<li>Eget porttitor lorem</li>
+					</ol>
+					<div class="separator mtop70 mbottom70"></div>
+					<h2 class="mbottom30">Highlights</h2>
+					<p class="gray">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed <span style="background: #ff525e; color: #fff;">consequuntur magni dolores</span> eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non <span style="background: #f7f7f7; color: #3d3d3d;">numquam eius modi tempora incidunt ut labore</span> et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
+					<div class="separator mtop70 mbottom70"></div>
+					<h2 class="mbottom30">HTML Styles</h2>
+					<p class="gray">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis <b class="underline">praesentium voluptatum</b> deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum <strong class="tcolor">bold text</strong> quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas <strong class="italic black">bold italic text</strong> assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae.</p>
+					<div class="separator mtop70 mbottom70"></div>
+					<h2 class="mbottom30">Blockquotes</h2>
+					<p class="gray mbottom30">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+					<div class="blockquote1 mbottom30">
+						<blockquote>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione...”</blockquote>
+					</div>
+					<p class="gray mbottom30">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+					<div class="blockquote2 mbottom30">
+						<blockquote>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni.</blockquote>
+					</div>
+					<p class="gray mbottom30">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+					<div class="separator mtop70 mbottom70"></div>
+					<h2 class="mbottom30">Dropcaps</h2>
+					<p class="gray mbottom30"><span class="firstcharacter">N</span>emo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.abore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?</p>
+					<p class="gray"><span class="firstcharacter2">B</span>emo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit ametqui in ea voluptate velit esse quam nihil molestiae consequatur qui in ea voluptate velit esse quam praesentium voluptatum deleniti atque corrupti adipisci velit, nuam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit  laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate.</p>
+					<div class="separator mtop70 mbottom70"></div>
+					<h2 class="mbottom30">Tooltips</h2>
+					<p class="gray mbottom50">Sed ut perspiciatis unde omnis iste natus error sit <a href="#" class="tooltip-test" data-toggle="tooltip" data-placement="top" title="Here is a tooltip!">voluptatem</a> accusantium Roll over me to show tooltip doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam Roll over me to show, nisi ut aliquid ex ea commodi consequatur?</p>
+				</div>";s:8:"settings";a:11:{s:5:"title";s:14:"Privacy Policy";s:3:"url";s:8:"/privacy";s:6:"layout";s:7:"default";s:11:"description";s:14:"Privacy Policy";s:6:"hidden";s:1:"0";s:10:"meta_title";s:7:"Privacy";s:8:"child_of";s:13:"mey_no_parent";s:10:"hide_crumb";s:1:"0";s:18:"remove_crumb_trail";s:1:"0";s:14:"crumb_disabled";s:1:"0";s:10:"components";a:0:{}}s:4:"code";N;s:6:"markup";s:11207:"<div class="header-breadcrumb mbottom50">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-12">
+						<h1 class="section-title fleft">Privacy Policy</h1>
+						<ul class="reset-list">
+							<li>
+								<p>Our Promise</p>
+							</li>
+							<li>/</li>
+							<li class="active">
+								<p>Privacy</p>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+	</div><!-- end header-breadcrumb -->
+	<div id="content">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-9">
+					<h2 class="mbottom30">Fancy Titles</h2>
+					<h2 class="satisfy-title">I am a fancy title! I accept any font, size and color.</h2>
+					<h2 class="default-title">I am a fancy title! I accept any font, size and color.</h2>
+					<h2 class="romanesco-title">I am a fancy title! I accept any font, size and color.</h2>
+					<div class="separator mtop70 mbottom70"></div>
+					<h2 class="mbottom30">Headings</h2>
+					<h1>H1 Heading</h1>
+					<p class="gray mbottom30">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+					<h2>H2 Heading</h2>
+					<p class="gray mbottom30">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+					<h3>H3 Heading</h3>
+					<p class="gray mbottom30">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+					<h4>H4 Heading</h4>
+					<p class="gray mbottom30">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+					<h5>H5 Heading</h5>
+					<p class="gray mbottom30">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+					<h6>H6 Heading</h6>
+					<p class="gray mbottom30">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+					<div class="separator mtop70 mbottom70"></div>
+					<h2>Lists</h2>
+					<h6>Unordered</h6>
+					<p>A list of items in which the order does not explicitly matter.</p>
+					<ul class="mbottom20">
+						<li>Lorem ipsum dolor sit amet</li>
+						<li>Consectetur adipiscing elit</li>
+						<li>Integer molestie lorem at massa</li>
+						<li>Facilisis in pretium nisl aliquet</li>
+						<li>Nulla volutpat aliquam velit
+							<ul>
+								<li>Phasellus iaculis neque</li>
+								<li>Purus sodales ultricies</li>
+								<li>Vestibulum laoreet porttitor sem</li>
+								<li>Ac tristique libero volutpat at</li>
+							</ul>
+						</li>
+						<li>Faucibus porta lacus fringilla vel</li>
+						<li>Aenean sit amet erat nunc</li>
+						<li>Eget porttitor lorem</li>
+					</ul>
+					<h6>Styled Lists</h6>
+					<ul class="mbottom30 styled-list">
+						<li>Lorem ipsum dolor sit amet</li>
+						<li>Consectetur adipiscing elit</li>
+						<li>Integer molestie lorem at massa</li>
+						<li>Facilisis in pretium nisl aliquet</li>
+						<li>Nulla volutpat aliquam velit
+							<ul>
+								<li>Phasellus iaculis neque</li>
+								<li>Purus sodales ultricies</li>
+								<li>Vestibulum laoreet porttitor sem</li>
+								<li>Ac tristique libero volutpat at</li>
+							</ul>
+						</li>
+						<li>Faucibus porta lacus fringilla vel</li>
+						<li>Aenean sit amet erat nunc</li>
+						<li>Eget porttitor lorem</li>
+					</ul>
+					<h6>Ordered</h6>
+					<ol>
+						<li>Lorem ipsum dolor sit amet</li>
+						<li>Consectetur adipiscing elit</li>
+						<li>Integer molestie lorem at massa</li>
+						<li>Facilisis in pretium nisl aliquet</li>
+						<li>Nulla volutpat aliquam velit</li>
+						<li>Faucibus porta lacus fringilla vel</li>
+						<li>Aenean sit amet erat nunc</li>
+						<li>Eget porttitor lorem</li>
+					</ol>
+					<div class="separator mtop70 mbottom70"></div>
+					<h2 class="mbottom30">Highlights</h2>
+					<p class="gray">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed <span style="background: #ff525e; color: #fff;">consequuntur magni dolores</span> eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non <span style="background: #f7f7f7; color: #3d3d3d;">numquam eius modi tempora incidunt ut labore</span> et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
+					<div class="separator mtop70 mbottom70"></div>
+					<h2 class="mbottom30">HTML Styles</h2>
+					<p class="gray">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis <b class="underline">praesentium voluptatum</b> deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum <strong class="tcolor">bold text</strong> quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas <strong class="italic black">bold italic text</strong> assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae.</p>
+					<div class="separator mtop70 mbottom70"></div>
+					<h2 class="mbottom30">Blockquotes</h2>
+					<p class="gray mbottom30">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+					<div class="blockquote1 mbottom30">
+						<blockquote>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione...”</blockquote>
+					</div>
+					<p class="gray mbottom30">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+					<div class="blockquote2 mbottom30">
+						<blockquote>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni.</blockquote>
+					</div>
+					<p class="gray mbottom30">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+					<div class="separator mtop70 mbottom70"></div>
+					<h2 class="mbottom30">Dropcaps</h2>
+					<p class="gray mbottom30"><span class="firstcharacter">N</span>emo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.abore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?</p>
+					<p class="gray"><span class="firstcharacter2">B</span>emo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit ametqui in ea voluptate velit esse quam nihil molestiae consequatur qui in ea voluptate velit esse quam praesentium voluptatum deleniti atque corrupti adipisci velit, nuam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit  laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate.</p>
+					<div class="separator mtop70 mbottom70"></div>
+					<h2 class="mbottom30">Tooltips</h2>
+					<p class="gray mbottom50">Sed ut perspiciatis unde omnis iste natus error sit <a href="#" class="tooltip-test" data-toggle="tooltip" data-placement="top" title="Here is a tooltip!">voluptatem</a> accusantium Roll over me to show tooltip doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam Roll over me to show, nisi ut aliquid ex ea commodi consequatur?</p>
+				</div>";}";
