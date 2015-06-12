@@ -26,7 +26,7 @@ return [
     |
     */
 
-    'default' => 'mysql',
+    'default' => 'mysql_dev',
 
     /*
     |--------------------------------------------------------------------------
@@ -59,6 +59,17 @@ return [
             'database'  => 'october',
             'username'  => 'root',
             'password'  => 'jasper',
+            'charset'   => 'utf8',
+            'collation' => 'utf8_unicode_ci',
+            'prefix'    => '',
+        ],
+		      'mysql_dev' => [
+            'driver'    => 'mysql',
+            'host'      => 'localhost',
+            'port'      => 3306,
+            'database'  => 'october',
+            'username'  => 'root',
+            'password'  => '',
             'charset'   => 'utf8',
             'collation' => 'utf8_unicode_ci',
             'prefix'    => '',

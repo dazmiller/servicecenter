@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="WEB_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/plugins" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/modules" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/vendor/symfony/console" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/flynsarmy/idehelper/vendor/symfony/console" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/vendor/symfony/finder" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/bedard/debugbar/vendor/symfony/finder" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/flynsarmy/idehelper/vendor/symfony/finder" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/vendor/symfony/routing" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/vendor/symfony/yaml" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/vendor/symfony/http-kernel" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/vendor/symfony/translation" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/vendor/symfony/http-foundation" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/flynsarmy/idehelper/vendor/symfony/class-loader" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/vendor/symfony/var-dumper" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/bedard/debugbar/vendor/symfony/var-dumper" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/vendor/symfony/filesystem" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/vendor/symfony/process" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/vendor/symfony/debug" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/vendor/symfony/event-dispatcher" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/vendor/symfony/security-core" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/flynsarmy/idehelper/vendor/symfony/class-loader/Symfony/Component/ClassLoader/Tests/Fixtures/fallback" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/flynsarmy/idehelper/vendor/symfony/class-loader/Symfony/Component/ClassLoader/Tests/Fixtures" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/vendor/laravel/framework/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/flynsarmy/idehelper/vendor" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/bedard/debugbar/vendor" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/renatio/dynamicpdf/vendor" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/vendor" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/vendor/psy/psysh/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/vendor/psy/psysh/test" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/vendor/kriswallsmith/assetic/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/vendor/psr/log" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/bedard/debugbar/vendor/psr/log" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/vendor/monolog/monolog/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/vendor/monolog/monolog/tests" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/flynsarmy/idehelper/vendor/symfony/class-loader/Symfony/Component/ClassLoader/Tests/Fixtures/Apc/fallback" isTestSource="false" packagePrefix="Apc" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/flynsarmy/idehelper/vendor/symfony/class-loader/Symfony/Component/ClassLoader/Tests/Fixtures/Apc/alpha" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/flynsarmy/idehelper/vendor/symfony/class-loader/Symfony/Component/ClassLoader/Tests/Fixtures/Apc/beta" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/vendor/classpreloader/classpreloader/src" isTestSource="false" packagePrefix="ClassPreloader" />
+      <sourceFolder url="file://$MODULE_DIR$/vendor/composer/installers/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/vendor/composer/installers/tests" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/vendor/mtdowling/cron-expression/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/flynsarmy/idehelper/vendor/symfony/class-loader/Symfony/Component/ClassLoader/Tests/Fixtures/alpha" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/flynsarmy/idehelper/vendor/symfony/class-loader/Symfony/Component/ClassLoader/Tests/Fixtures/beta" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/alxy/captcha/vendor/google/recaptcha/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/alxy/captcha/vendor/google/recaptcha/tests" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/vendor/doctrine/dbal/lib" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/vendor/doctrine/cache/tests" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/vendor/doctrine/common/tests" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/vendor/doctrine/inflector/tests" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/vendor/doctrine/collections/tests" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/bedard/debugbar/vendor/doctrine/inflector/tests" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/renatio/dynamicpdf/vendor/doctrine/inflector/tests" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/flynsarmy/idehelper/vendor/doctrine/inflector/tests" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/vendor/doctrine/common/lib" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/vendor/doctrine/lexer/lib" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/vendor/doctrine/cache/lib" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/vendor/doctrine/collections/lib" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/vendor/doctrine/inflector/lib" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/bedard/debugbar/vendor/doctrine/inflector/lib" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/renatio/dynamicpdf/vendor/doctrine/inflector/lib" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/flynsarmy/idehelper/vendor/doctrine/inflector/lib" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/vendor/doctrine/annotations/lib" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/vendor/nikic/php-parser/lib" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/vendor/nikic/php-parser/test" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/vendor/nesbot/carbon/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/flynsarmy/idehelper/vendor/phpdocumentor/reflection-docblock/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/flynsarmy/idehelper/vendor/phpdocumentor/reflection-docblock/tests" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/vendor/doctrine/common/tests/Doctrine/Tests/Common" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/bedard/debugbar/vendor/maximebf/debugbar/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/vendor/jakub-onderka/php-console-color/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/vendor/jakub-onderka/php-console-highlighter/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/vendor/jeremeamia/SuperClosure/src" isTestSource="false" packagePrefix="SuperClosure" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
