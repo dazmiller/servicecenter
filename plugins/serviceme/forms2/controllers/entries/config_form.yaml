@@ -1,0 +1,9 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Model Form Field configuration
+form: $/serviceme/Forms2/models/entry/fields.yaml
+
+# Model Class name
+modelClass: serviceme\Forms2\Models\Entry
