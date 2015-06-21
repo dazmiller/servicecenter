@@ -150,7 +150,7 @@ return [
     |
     */
 
-    'enableAssetMinify' => null,
+    'enableAssetMinify' => false,
 
     /*
     |--------------------------------------------------------------------------
