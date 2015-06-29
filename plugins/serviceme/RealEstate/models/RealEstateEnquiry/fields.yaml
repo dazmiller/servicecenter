@@ -1,0 +1,116 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+fields:
+
+    # ID field is displayed only in the backend
+    id:
+        label: ID
+        disabled: true
+        context: [create, update]
+
+    title:
+        label: Title
+        comment: The sexy title of this entry
+        span: left
+
+    # Slogan field is displayed only in the front-end
+    slogan:
+        label: Slogan
+        comment: This field is displayed only in frontend
+        span: right
+        context: [frontend]
+
+    body:
+        label: Body
+        type: textarea
+        commentAbove: The body should contain some information.
+
+    postcode:
+        label: PoatCode
+        commentAbove: Enter the postcode of the suburb
+        span: left
+
+    propertytype:
+        label: Property Type
+        span: right
+        commentAbove: Please select the type of property you are looking for
+
+    newestablished:
+        label: New or Established
+        span: left
+        commentAbove: Please select whether you are searching for a new or established property.
+
+    minbeds:
+        label: Min Beds
+        span: left
+        commentAbove: Minimum Bedrooms
+
+    maxbeds:
+        label: Max Beds
+        span: right
+        commentAbove: Maximum Bedrooms
+
+    minprice:
+        label: Min Price
+        span: left
+        commentAbove: Minimum Price
+
+    maxprice:
+        label: Max Price
+        span: right
+        commentAbove: Maximum Price
+
+    indoorfeatures:
+        label: Indoor Features
+        span: left
+        commentAbove: Select the indoor features that you would like the property to contain.
+
+    outdoorfeatures:
+        label: OutDoor Features
+        span: right
+        commentAbove: Select the outdoor features that you would like the property to contain.
+
+    bathrooms:
+        label: Bathrooms
+        span: left
+        commentAbove: Select the number of bathrooms you would like the property to contain.
+
+    parking:
+        label: Parking
+        span: right
+        commentAbove: Select the number of parking spaces you would like the property to contain.
+
+    landsize:
+        label: Land Size
+        span: left
+        commentAbove: Select the size of the land you would like the property to exist on.
+
+    livecloseto:
+        label: Live Close To
+        span: left
+        commentAbove: Select items that you wish the property to be close too.
+
+    liveawatfrom:
+        label: Live Away From
+        span: right
+        commentAbove: Select items that you wish the property to be away from.
+
+    status:
+        label: Blog Post Status
+        type: dropdown
+        span: left
+        options:
+            draft: Draft
+            published: Published
+            archived: Archived
+
+    cstatus:
+        label: Status
+        type: recordfinder
+        span: left
+        list: $/acme/crm/models/status/columns.yaml
+        prompt: Click the %s button to find a status
+        nameFrom: name
+        descriptionFrom: probability

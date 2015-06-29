@@ -1,0 +1,54 @@
+<div class="confirm-container bg-success hide">
+    <p>Successfully created a new enquiry!</p>
+</div>
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-10 mbottom50">
+            <div class="register-panel thin-shadow clearfix">
+                <div class="reg-panel-title">
+                    <b>REAL ESTATE ENQUIRY</b>
+                </div>
+
+                <form role="form"
+                      data-request="onSave"
+                      data-request-success="$el.hide();$('.confirm-container').removeClass('hide');">
+
+                    {{ re_form.formRender()|raw }}
+
+                    <div class="form-group">
+                        <div class="row">
+                            <div class="col-sm-offset-8 col-sm-3 ">
+                        <button class="btn btn-primary btn-block btn-lg" type="submit" value="register" style="text-align: center">Create</button>
+                                </div>
+                            </div>
+                    </div>
+
+                </form>
+
+            </div>
+            <!-- end register-panel -->
+        </div>
+
+    </div>
+</div>
+
+<script>
+
+    function onFindRecord()
+    {
+        /* Something server-side code */
+
+        return [{
+            'email': 'dazmiller@gmail.com',
+            'name': 'Darren Miller'
+        }];
+    }
+
+
+</script>
+
+
+
+

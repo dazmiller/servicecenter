@@ -1,0 +1,9 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Model Form Field configuration
+form: $/serviceme/realestate/models/RealEstateEnquiry/fields.yaml
+
+# Model Class name
+modelClass: ServiceMe\RealEstate\Models\RealEstateEnquiry

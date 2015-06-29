@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Service Request
+
+# Model Form Field configuration
+form: $/serviceme/servicerequest/models/servicerequest/fields.yaml
+
+# Model Class name
+modelClass: ServiceMe\ServiceRequest\Models\ServiceRequest
+
+# Default redirect location
+defaultRedirect: serviceme/servicerequest/servicerequests
+
+# Create page
+create:
+    title: Create Service Request
+    redirect: serviceme/servicerequest/servicerequests/update/:id
+    redirectClose: serviceme/servicerequest/servicerequests
+
+# Update page
+update:
+    title: Edit Service Request
+    redirect: serviceme/servicerequest/servicerequests
+    redirectClose: serviceme/servicerequest/servicerequests
+
+# Preview page
+preview:
+    title: Preview Service Request
